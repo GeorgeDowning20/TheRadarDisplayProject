@@ -5,6 +5,7 @@
 /// @date 2020-11-24
 /// @copyright (c) 2022 G. Downing
 /// @details This file contains the main function for the program
+/// @details Doxygen Documentation: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
 //---------------------------------------------------------------------------//
 
 #include <iostream>
