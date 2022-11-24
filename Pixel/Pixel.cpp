@@ -1,3 +1,5 @@
+
+
 #include "Pixel.h"
 
 /// @details This is the default constructor for the pixel class. It sets the x and y coordinates to 0 and the brightness to 0.
