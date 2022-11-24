@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_32',['x',['../classpixel.html#a0fd8cbfaee35453c73320bb24852d664',1,'pixel']]]
+  ['updateicon_32',['updateIcon',['../classicon.html#a4b91df1dbf2ddf951d3c8955b3b543b0',1,'icon']]]
 ];
