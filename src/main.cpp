@@ -19,10 +19,12 @@
 //                           Main Program
 //---------------------------------------------------------------------------//
 
-/// @brief this is a test to see if this does anything
-/// @param argc The number of arguments
+/// @brief Main program
+/// @param[out] printf Any relevant error messages
+/// @param printf Icon Details
 /// @details description of the function
-/// @return
+/// @author G.Downing
+/// @date 2020-11-24
 int main()
 {
     icon myIcon;
@@ -54,9 +56,4 @@ int main()
         std::cout << "Error showing details" << std::endl;
         return STATUS_ERROR;
     }
-}
-
-int main()
-{
-    pixel
 }

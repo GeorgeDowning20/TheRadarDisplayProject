@@ -26,14 +26,14 @@ public:
     pixel();
 
     /// @brief Default constructor for pixel with x, y and Brightness
-    /// @param x The x coordinate of the pixel
-    /// @param y The y coordinate of the pixel
+    /// @param[in,out] x The x coordinate of the pixel
+    /// @param[in,out] y The y coordinate of the pixel
     /// @param Brightness The brightness of the pixel (0-20)
     pixel(float x, float y, uint8_t Brightness);
 
     /// @brief Default constructor with brightness set to 0
-    /// @param x The x coordinate of the pixel
-    /// @param y The y coordinate of the pixel
+    /// @param[in,out] x The x coordinate of the pixel
+    /// @param[in,out] y The y coordinate of the pixel
     pixel(float x, float y);
 
     /// @brief Show the x coordinate of the pixel
@@ -49,15 +49,15 @@ public:
     uint8_t getBrightness();
 
     /// @brief Set the x coordinate of the pixel
-    /// @param x The x coordinate of the pixel
+    /// @param[in,out] x The x coordinate of the pixel
     void setX(float x);
 
     /// @brief Set the y coordinate of the pixel
-    /// @param y The y coordinate of the pixel
+    /// @param[in,out] y The y coordinate of the pixel
     void setY(float y);
 
     /// @brief Set the brightness of the pixel
-    /// @param Brightness The brightness of the pixel (0-20)
+    /// @param[in,out] Brightness The brightness of the pixel (0-20)
     void setBrightness(uint8_t brightness);
 
     /// @brief Show the details of the pixel
@@ -65,7 +65,7 @@ public:
     enum status_e showPixelDetail();
 
     /// @brief Show the details of the pixel
-    /// @param pixel The pixel to show the details of
+    /// @param[in] pixel The pixel to show the details of
     /// @return STATUS_OK
     static enum status_e showPixelDetail(pixel const &pixel);
 
@@ -74,7 +74,7 @@ public:
     enum status_e showDetail();
 
     /// @brief Show the details of the pixel
-    /// @param pixel The pixel to show the details of
+    /// @param[in] pixel The pixel to show the details of
     /// @return STATUS_OK
     static enum status_e showDetail(pixel const &pixel);
 };
