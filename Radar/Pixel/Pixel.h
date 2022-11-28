@@ -5,7 +5,7 @@
 /// @author G.Downing
 /// @date 2020-11-24
 
-#include "../src/main.h"
+#include "../../src/main.h"
 #include <cstdint>
 #include <iostream>
 #include <algorithm>

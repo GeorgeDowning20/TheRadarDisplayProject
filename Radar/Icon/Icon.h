@@ -2,7 +2,7 @@
 
 #include <cstdint>
 #include <iostream>
-#include "../src/main.h"
+#include "../../src/main.h"
 #include "../Pixel/Pixel.h"
 
 class icon

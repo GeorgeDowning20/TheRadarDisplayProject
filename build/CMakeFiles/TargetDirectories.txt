@@ -1,0 +1,3 @@
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/rebuild_cache.dir
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/edit_cache.dir
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir

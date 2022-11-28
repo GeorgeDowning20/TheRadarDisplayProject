@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
+../def.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/def.h
+../Time/Time.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.h
+../Aircraft/Aircraft.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
+iostream
+-
+vector
+-
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+cstdint
+-
+iostream
+-
+../../src/main.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
+../Pixel/Pixel.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
+../../src/main.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
+cstdint
+-
+iostream
+-
+algorithm
+-
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.h
+X11/Xlib.h
+-
+vector
+-
+Airspace/Airspace.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.h
+RadarDisplay/RadarDisplay.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.h
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.h
+X11/Xlib.h
+-
+iostream
+-
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
+chrono
+-
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/def.h
+algorithm
+-
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.cpp
+iostream
+-
+cstdint
+-
+main.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
+../Radar/Pixel/Pixel.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
+../Radar/Icon/Icon.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+../Radar/Radar.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.h
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
+
