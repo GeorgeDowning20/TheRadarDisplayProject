@@ -1,0 +1,5 @@
+<map id="Aircraft" name="Aircraft">
+<area shape="rect" id="node1" title=" " alt="" coords="35,95,99,121"/>
+<area shape="rect" id="node2" href="$structSize.html" title=" " alt="" coords="5,5,53,32"/>
+<area shape="rect" id="node3" href="$structPoint.html" title=" " alt="" coords="78,5,130,32"/>
+</map>

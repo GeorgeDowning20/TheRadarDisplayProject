@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['pixel_52',['pixel',['../classpixel.html#ad888d0c4abe19bdf754c21ac01c350d4',1,'pixel::pixel()'],['../classpixel.html#a2ef0955996258816670a3a086d8ca214',1,'pixel::pixel(float x, float y, uint8_t Brightness)'],['../classpixel.html#abe24c5219eaa9516601985ad5df15690',1,'pixel::pixel(float x, float y)']]]
+  ['cmake_5fminimum_5frequired_186',['cmake_minimum_required',['../CMakeLists_8txt.html#a5e766d451c05cccba1eeb83629c8f920',1,'CMakeLists.txt']]],
+  ['createghosts_187',['createGhosts',['../classAirSpace.html#a814b34c59b7778d12a687d58b9e0d4e3',1,'AirSpace::createGhosts()'],['../classAirSpace.html#a814b34c59b7778d12a687d58b9e0d4e3',1,'AirSpace::createGhosts()'],['../classRadar.html#a11d03e196f9d12b4fcaaf250634014f6',1,'Radar::createGhosts()'],['../classRadar.html#a11d03e196f9d12b4fcaaf250634014f6',1,'Radar::createGhosts()']]]
 ];

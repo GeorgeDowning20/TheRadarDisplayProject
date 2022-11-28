@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['icon_49',['icon',['../classicon.html#aabc3c55a5d80b361b1c59b878a3934e7',1,'icon::icon()'],['../classicon.html#ac3119215af7e9118d2634f33517e8b20',1,'icon::icon(uint8_t Id)'],['../classicon.html#a7f512420ee6ca8e6e599158df0c237a8',1,'icon::icon(uint8_t __Id, pixel __The_Pixels[])'],['../classicon.html#a29577333841259c0c9b61fce01fff48f',1,'icon::icon(pixel __The_Pixels[])']]],
-  ['initialiseasdefaultdiagonalline_50',['initialiseAsDefaultDiagonalLine',['../classicon.html#a221927b72787ba82f7cd414d8a9effc5',1,'icon']]]
+  ['aircraft_181',['Aircraft',['../structAircraft.html#ad77a43012d299ec8b35c649b605bc03d',1,'Aircraft::Aircraft(unsigned long new_col, Point new_pos, Size new_sz)'],['../structAircraft.html#ad77a43012d299ec8b35c649b605bc03d',1,'Aircraft::Aircraft(unsigned long new_col, Point new_pos, Size new_sz)']]],
+  ['airspace_182',['AirSpace',['../classAirSpace.html#a199c32f1bba61cde1053b7daded261cc',1,'AirSpace::AirSpace()'],['../classAirSpace.html#a199c32f1bba61cde1053b7daded261cc',1,'AirSpace::AirSpace()']]]
 ];

@@ -57,7 +57,7 @@ public:
     void setY(float y);
 
     /// @brief Set the brightness of the pixel
-    /// @param[in,out] Brightness The brightness of the pixel (0-20)
+    /// @param[in,out] brightness The brightness of the pixel (0-20)
     void setBrightness(uint8_t brightness);
 
     /// @brief Show the details of the pixel

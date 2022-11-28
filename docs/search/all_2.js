@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['icon_6',['icon',['../classicon.html',1,'icon'],['../classicon.html#aabc3c55a5d80b361b1c59b878a3934e7',1,'icon::icon()'],['../classicon.html#ac3119215af7e9118d2634f33517e8b20',1,'icon::icon(uint8_t Id)'],['../classicon.html#a7f512420ee6ca8e6e599158df0c237a8',1,'icon::icon(uint8_t __Id, pixel __The_Pixels[])'],['../classicon.html#a29577333841259c0c9b61fce01fff48f',1,'icon::icon(pixel __The_Pixels[])']]],
-  ['icon_2ecpp_7',['Icon.cpp',['../Icon_8cpp.html',1,'']]],
-  ['icon_2eh_8',['Icon.h',['../Icon_8h.html',1,'']]],
-  ['id_9',['Id',['../classicon.html#a130e230226a729e035656fe64ec80c6a',1,'icon']]],
-  ['initialiseasdefaultdiagonalline_10',['initialiseAsDefaultDiagonalLine',['../classicon.html#a221927b72787ba82f7cd414d8a9effc5',1,'icon']]]
+  ['bl_10',['bl',['../structRect.html#a12d560b596724da43cb533737d99500c',1,'Rect::bl() const'],['../structRect.html#a12d560b596724da43cb533737d99500c',1,'Rect::bl() const']]],
+  ['bounds_11',['bounds',['../structAircraft.html#adb56dbce54846538db0e88df1ea11dd2',1,'Aircraft::bounds() const'],['../structAircraft.html#adb56dbce54846538db0e88df1ea11dd2',1,'Aircraft::bounds() const']]],
+  ['br_12',['br',['../structRect.html#aa1289138bb0843a1936f717db05cdd7a',1,'Rect::br() const'],['../structRect.html#aa1289138bb0843a1936f717db05cdd7a',1,'Rect::br() const']]],
+  ['brightness_13',['Brightness',['../classpixel.html#a6f7732f468c2ace19a5e6eb288662293',1,'pixel']]]
 ];
