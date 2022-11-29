@@ -12,20 +12,16 @@ public:
     void run();
 
 private:
-    RadarDisplay gamedisplay_;
+    RadarDisplay RadarDisplay_;
     XEvent event_;
     bool is_running_ = true;
-    bool game_over = false;
+    bool STOP = false;
     bool game_won = false;
 
-    std::vector<Jet> ghosts_;
     AirSpace *airspace_;
 
     bool getEvent();
-    void updateGhosts();
     void handleEvent();
-    void draw();
-    void createGhosts();
     void drawAllGhosts();
     void update();
     void drawCharacter(const Aircraft &obj) const;

@@ -75,14 +75,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a199c32f1bba61cde1053b7daded261cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a199c32f1bba61cde1053b7daded261cc">AirSpace</a> ()</td></tr>
-<tr class="separator:a199c32f1bba61cde1053b7daded261cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a354fa04eb2de7673eb5e15cab9afba5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a354fa04eb2de7673eb5e15cab9afba5c">AirSpace</a> (int jets, int planes, int helicopters)</td></tr>
+<tr class="separator:a354fa04eb2de7673eb5e15cab9afba5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a200b64e7a37ba07c49cf445108759d3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a200b64e7a37ba07c49cf445108759d3d">~AirSpace</a> ()</td></tr>
 <tr class="separator:a200b64e7a37ba07c49cf445108759d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2175a9c9e93c1907563460f7a50d7914"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a2175a9c9e93c1907563460f7a50d7914">updateGhosts</a> ()</td></tr>
 <tr class="separator:a2175a9c9e93c1907563460f7a50d7914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a814b34c59b7778d12a687d58b9e0d4e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a814b34c59b7778d12a687d58b9e0d4e3">createGhosts</a> ()</td></tr>
-<tr class="separator:a814b34c59b7778d12a687d58b9e0d4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a276daab26e4af6c1ecd89633bf7ae5f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a276daab26e4af6c1ecd89633bf7ae5f7">test</a> ()</td></tr>
 <tr class="separator:a276daab26e4af6c1ecd89633bf7ae5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a199c32f1bba61cde1053b7daded261cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a199c32f1bba61cde1053b7daded261cc">AirSpace</a> ()</td></tr>
@@ -98,10 +96,16 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab7735f3d4d83d4077f4f17c9c3030db4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structJet.html">Jet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#ab7735f3d4d83d4077f4f17c9c3030db4">jet_</a></td></tr>
-<tr class="separator:ab7735f3d4d83d4077f4f17c9c3030db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a680edc1ed5911f2c7a05366960d133d3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structJet__s.html">Jet_s</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a680edc1ed5911f2c7a05366960d133d3">Jet</a></td></tr>
+<tr class="separator:a680edc1ed5911f2c7a05366960d133d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc2914aec18561937d4ab486be4f235"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structHeli__s.html">Heli_s</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a2fc2914aec18561937d4ab486be4f235">Heli</a></td></tr>
+<tr class="separator:a2fc2914aec18561937d4ab486be4f235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9253700e76a100a52a15d416075a9b32"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structPlane__s.html">Plane_s</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a9253700e76a100a52a15d416075a9b32">Plane</a></td></tr>
+<tr class="separator:a9253700e76a100a52a15d416075a9b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52799d2c73b4264468f1d18769288a1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#a52799d2c73b4264468f1d18769288a1d">update_flag_</a></td></tr>
 <tr class="separator:a52799d2c73b4264468f1d18769288a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf161621fd7ce3eebe0c7894c3178ba"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structJet__s.html">Jet_s</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAirSpace.html#adcf161621fd7ce3eebe0c7894c3178ba">jet_</a></td></tr>
+<tr class="separator:adcf161621fd7ce3eebe0c7894c3178ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -109,8 +113,8 @@ Friends</h2></td></tr>
 <tr class="separator:af3c50f97aefea9391ff189e14476056b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a199c32f1bba61cde1053b7daded261cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a199c32f1bba61cde1053b7daded261cc">&#9670;&nbsp;</a></span>AirSpace() <span class="overload">[1/2]</span></h2>
+<a id="a354fa04eb2de7673eb5e15cab9afba5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354fa04eb2de7673eb5e15cab9afba5c">&#9670;&nbsp;</a></span>AirSpace() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,8 +122,25 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">AirSpace::AirSpace </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>jets</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>planes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>helicopters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -157,6 +178,15 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAirSpace_a199c32f1bba61cde1053b7daded261cc_cgraph.png" border="0" usemap="#classAirSpace_a199c32f1bba61cde1053b7daded261cc_cgraph" alt=""/></div>
+<map name="classAirSpace_a199c32f1bba61cde1053b7daded261cc_cgraph" id="classAirSpace_a199c32f1bba61cde1053b7daded261cc_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,141,32"/>
+<area shape="rect" href="classAirSpace.html#a814b34c59b7778d12a687d58b9e0d4e3" title=" " alt="" coords="189,5,351,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -179,7 +209,7 @@ Friends</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a814b34c59b7778d12a687d58b9e0d4e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a814b34c59b7778d12a687d58b9e0d4e3">&#9670;&nbsp;</a></span>createGhosts() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a814b34c59b7778d12a687d58b9e0d4e3">&#9670;&nbsp;</a></span>createGhosts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,23 +222,15 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAirSpace_a814b34c59b7778d12a687d58b9e0d4e3_icgraph.png" border="0" usemap="#classAirSpace_a814b34c59b7778d12a687d58b9e0d4e3_icgraph" alt=""/></div>
+<map name="classAirSpace_a814b34c59b7778d12a687d58b9e0d4e3_icgraph" id="classAirSpace_a814b34c59b7778d12a687d58b9e0d4e3_icgraph">
+<area shape="rect" title=" " alt="" coords="189,5,351,32"/>
+<area shape="rect" href="classAirSpace.html#a199c32f1bba61cde1053b7daded261cc" title=" " alt="" coords="5,5,141,32"/>
+</map>
 </div>
-</div>
-<a id="a814b34c59b7778d12a687d58b9e0d4e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a814b34c59b7778d12a687d58b9e0d4e3">&#9670;&nbsp;</a></span>createGhosts() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AirSpace::createGhosts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -260,6 +282,16 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAirSpace_a2175a9c9e93c1907563460f7a50d7914_icgraph.png" border="0" usemap="#classAirSpace_a2175a9c9e93c1907563460f7a50d7914_icgraph" alt=""/></div>
+<map name="classAirSpace_a2175a9c9e93c1907563460f7a50d7914_icgraph" id="classAirSpace_a2175a9c9e93c1907563460f7a50d7914_icgraph">
+<area shape="rect" title=" " alt="" coords="235,5,399,32"/>
+<area shape="rect" href="classRadar.html#a580a24be527b2b97c9f3aec94ce31ead" title=" " alt="" coords="104,5,187,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -304,8 +336,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab7735f3d4d83d4077f4f17c9c3030db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7735f3d4d83d4077f4f17c9c3030db4">&#9670;&nbsp;</a></span>jet_</h2>
+<a id="a2fc2914aec18561937d4ab486be4f235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc2914aec18561937d4ab486be4f235">&#9670;&nbsp;</a></span>Heli</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,7 +346,73 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="structJet.html">Jet</a> &gt; AirSpace::jet_</td>
+          <td class="memname">std::vector&lt;<a class="el" href="structHeli__s.html">Heli_s</a>&gt; AirSpace::Heli</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a680edc1ed5911f2c7a05366960d133d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a680edc1ed5911f2c7a05366960d133d3">&#9670;&nbsp;</a></span>Jet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structJet__s.html">Jet_s</a>&gt; AirSpace::Jet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adcf161621fd7ce3eebe0c7894c3178ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf161621fd7ce3eebe0c7894c3178ba">&#9670;&nbsp;</a></span>jet_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structJet__s.html">Jet_s</a>&gt; AirSpace::jet_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9253700e76a100a52a15d416075a9b32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9253700e76a100a52a15d416075a9b32">&#9670;&nbsp;</a></span>Plane</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structPlane__s.html">Plane_s</a>&gt; AirSpace::Plane</td>
         </tr>
       </table>
   </td>

@@ -9,8 +9,12 @@
 /// @details Doxygen Documentation for file: https://georgedowning20.github.io/TheRadarDisplayProject/main_8cpp.html
 //---------------------------------------------------------------------------//
 
-#include "main.h" // main.h
-
+#include "main.h"                 // main.h
+#include <iostream>               // std::cout
+#include <cstdint>                // uint8_t
+#include "../Radar/Pixel/Pixel.h" // Pixel.h
+#include "../Radar/Icon/Icon.h"   // Icon.h
+#include "../Radar/Radar.h"       // Display.h
 //---------------------------------------------------------------------------//
 //                           Main Program
 //---------------------------------------------------------------------------//
@@ -18,8 +22,8 @@
 int main()
 {
 
-    AirSpace Lasham;
-    AirSpace test;
+    AirSpace Lasham(5, 6, 7);
+    AirSpace test(5, 6, 7);
 
     Radar g(Lasham);
     Radar q(test);

@@ -1,4 +1,6 @@
 <map id="Aircraft" name="Aircraft">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,69,32"/>
-<area shape="rect" id="node2" href="$structJet.html" title=" " alt="" coords="17,80,57,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="84,5,148,32"/>
+<area shape="rect" id="node2" href="$structHeli__s.html" title=" " alt="" coords="5,80,64,107"/>
+<area shape="rect" id="node3" href="$structJet__s.html" title=" " alt="" coords="89,80,143,107"/>
+<area shape="rect" id="node4" href="$structPlane__s.html" title=" " alt="" coords="168,80,237,107"/>
 </map>

@@ -6,16 +6,17 @@
 class AirSpace
 {
 public:
-    AirSpace();
+    AirSpace(int jets, int planes, int helicopters);
     ~AirSpace();
 
     bool updateGhosts();
-    void createGhosts();
-
     void test();
 
 private:
-    std::vector<Jet> jet_;
+    std::vector<Jet_s> Jet;
+    std::vector<Heli_s> Heli;
+    std::vector<Plane_s> Plane;
+
     bool update_flag_;
     friend class Radar;
 };

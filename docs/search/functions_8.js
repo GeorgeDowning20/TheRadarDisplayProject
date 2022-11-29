@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jet_204',['Jet',['../structJet.html#a8337e7330125211aa9e6f4a4022a793c',1,'Jet::Jet()'],['../structJet.html#a8337e7330125211aa9e6f4a4022a793c',1,'Jet::Jet()']]]
+  ['jet_5fs_211',['Jet_s',['../structJet__s.html#ab5806e82e39e469bf4445982035f97e2',1,'Jet_s::Jet_s()'],['../structJet__s.html#ab5806e82e39e469bf4445982035f97e2',1,'Jet_s::Jet_s()']]]
 ];

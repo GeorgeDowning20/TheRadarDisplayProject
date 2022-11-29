@@ -178,9 +178,9 @@ struct Aircraft
     }
 };
 
-struct Jet : public Aircraft
+struct Jet_s : public Aircraft
 {
-    Jet() : Aircraft(0xff0000, {100, 100}, {10, 10})
+    Jet_s() : Aircraft(0xff0000, {100, 100}, {10, 10})
     {
         time_at_last_move_ns_ = time_.time();
     };
@@ -231,7 +231,7 @@ public:
     void test();
 
 private:
-    std::vector<Jet> jet_;
+    std::vector<Jet_s> jet_;
     bool update_flag_;
     friend class Radar;
 };
@@ -289,13 +289,13 @@ public:
     void run();
 
 private:
-    RadarDisplay gamedisplay_;
+    RadarDisplay RadarDisplay_;
     XEvent event_;
     bool is_running_ = true;
-    bool game_over = false;
+    bool STOP = false;
     bool game_won = false;
 
-    std::vector<Jet> ghosts_;
+    std::vector<Jet_s> Jet_;
     AirSpace *airspace_;
 
     bool getEvent();
@@ -320,12 +320,12 @@ void Radar::run()
     airspace_->updateGhosts();
 
     if (airspace_->update_flag_)
-        gamedisplay_.redraw();
+        RadarDisplay_.redraw();
 
     if (is_running_)
     {
 
-        if (!game_over)
+        if (!STOP)
             updateGhosts();
 
         if (getEvent())
@@ -337,9 +337,9 @@ void Radar::run()
 
 bool Radar::getEvent()
 {
-    if (XPending(gamedisplay_.getDisplay()))
+    if (XPending(RadarDisplay_.getDisplay()))
     {
-        XNextEvent(gamedisplay_.getDisplay(), &event_);
+        XNextEvent(RadarDisplay_.getDisplay(), &event_);
         // printf("EVENT: %d\n", event_.type);
         return true;
     }
@@ -354,12 +354,12 @@ void Radar::draw()
 
 void Radar::createGhosts()
 {
-    ghosts_.clear();
-    ghosts_.resize(50);
+    Jet_.clear();
+    Jet_.resize(50);
     const int MAXX = 800;
     const int MAXY = 600;
 
-    for (auto &g : ghosts_)
+    for (auto &g : Jet_)
     {
         g.position.x = (std::rand() % MAXX) / 10 * 10;
         g.position.y = (std::rand() % MAXY) / 10 * 10;
@@ -376,11 +376,11 @@ void Radar::drawAllGhosts()
 
 void Radar::drawCharacter(const Aircraft &obj) const
 {
-    gamedisplay_.drawRect(obj.color,
-                          obj.position.x,
-                          obj.position.y,
-                          obj.size.width,
-                          obj.size.height);
+    RadarDisplay_.drawRect(obj.color,
+                           obj.position.x,
+                           obj.position.y,
+                           obj.size.width,
+                           obj.size.height);
 }
 
 void Radar::updateGhosts()

@@ -1,8 +1,32 @@
 #include "Airspace.h"
 
-AirSpace::AirSpace()
+AirSpace::AirSpace(int jets, int planes, int helicopters)
 {
-    createGhosts();
+    Jet.clear();
+    Jet.resize(jets);
+    const int MAXX = 800;
+    const int MAXY = 600;
+    for (auto &g : Jet)
+    {
+        g.position.x = (std::rand() % MAXX) / 10 * 10;
+        g.position.y = (std::rand() % MAXY) / 10 * 10;
+    }
+
+    Heli.clear();
+    Heli.resize(helicopters);
+    for (auto &g : Heli)
+    {
+        g.position.x = (std::rand() % MAXX) / 10 * 10;
+        g.position.y = (std::rand() % MAXY) / 10 * 10;
+    }
+
+    Plane.clear();
+    Plane.resize(planes);
+    for (auto &g : Plane)
+    {
+        g.position.x = (std::rand() % MAXX) / 10 * 10;
+        g.position.y = (std::rand() % MAXY) / 10 * 10;
+    }
 }
 
 AirSpace::~AirSpace()
@@ -12,31 +36,33 @@ AirSpace::~AirSpace()
 bool AirSpace::updateGhosts()
 {
     update_flag_ = false;
-    for (auto &g : jet_)
+    for (auto &g : Jet)
     {
         if (g.isTimeToMove())
         {
             g.move();
             update_flag_ = true;
-
-            return 1;
         }
     }
-    return 0;
-}
 
-void AirSpace::createGhosts()
-{
-    jet_.clear();
-    jet_.resize(10);
-    const int MAXX = 800;
-    const int MAXY = 600;
-
-    for (auto &g : jet_)
+    for (auto &g : Heli)
     {
-        g.position.x = (std::rand() % MAXX) / 10 * 10;
-        g.position.y = (std::rand() % MAXY) / 10 * 10;
+        if (g.isTimeToMove())
+        {
+            g.move();
+            update_flag_ = true;
+        }
     }
+
+    for (auto &g : Plane)
+    {
+        if (g.isTimeToMove())
+        {
+            g.move();
+            update_flag_ = true;
+        }
+    }
+    return 1;
 }
 
 void AirSpace::test()

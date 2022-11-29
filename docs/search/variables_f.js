@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['the_5fpixels_276',['The_Pixels',['../classicon.html#a1f3f7458334e08d255bf6d61ecb08d6b',1,'icon']]],
-  ['time_5f_277',['time_',['../structJet.html#a0e96732367ed532e9d041c9a08c6ea7d',1,'Jet']]],
-  ['time_5fat_5flast_5fmove_5fns_5f_278',['time_at_last_move_ns_',['../structJet.html#a0bae9bb58a8fcc9050b6dca85caca740',1,'Jet']]]
+  ['screen_5f_282',['screen_',['../classRadarDisplay.html#aa25671a5e5666e8c3c453036929e9621',1,'RadarDisplay']]],
+  ['size_283',['size',['../structAircraft.html#acbe86ceb02454bdbe9f15601491181f6',1,'Aircraft']]],
+  ['start_5f_284',['start_',['../class__Time.html#ac348b007a9373368c9e5d3f5333a6c44',1,'_Time']]],
+  ['stop_285',['STOP',['../classRadar.html#abd5093b82afeef4cc4d6d316486d2be8',1,'Radar']]]
 ];

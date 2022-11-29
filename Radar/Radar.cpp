@@ -4,7 +4,6 @@ Radar::Radar(AirSpace &air_space)
 {
     airspace_ = &air_space;
     std::srand(std::time(nullptr));
-    createGhosts();
 }
 
 void Radar::run()
@@ -12,26 +11,24 @@ void Radar::run()
     airspace_->updateGhosts();
 
     if (airspace_->update_flag_)
-        gamedisplay_.redraw();
+        RadarDisplay_.redraw();
 
     if (is_running_)
     {
 
-        if (!game_over)
-            updateGhosts();
-
-        if (getEvent())
-        {
-            handleEvent();
-        }
+        if (!STOP)
+            if (getEvent())
+            {
+                handleEvent();
+            }
     }
 }
 
 bool Radar::getEvent()
 {
-    if (XPending(gamedisplay_.getDisplay()))
+    if (XPending(RadarDisplay_.getDisplay()))
     {
-        XNextEvent(gamedisplay_.getDisplay(), &event_);
+        XNextEvent(RadarDisplay_.getDisplay(), &event_);
         // printf("EVENT: %d\n", event_.type);
         return true;
     }
@@ -39,28 +36,19 @@ bool Radar::getEvent()
     return false;
 }
 
-void Radar::draw()
-{
-    drawAllGhosts();
-}
-
-void Radar::createGhosts()
-{
-    ghosts_.clear();
-    ghosts_.resize(50);
-    const int MAXX = 800;
-    const int MAXY = 600;
-
-    for (auto &g : ghosts_)
-    {
-        g.position.x = (std::rand() % MAXX) / 10 * 10;
-        g.position.y = (std::rand() % MAXY) / 10 * 10;
-    }
-}
-
 void Radar::drawAllGhosts()
 {
-    for (auto &g : airspace_->jet_)
+    for (auto &g : airspace_->Jet)
+    {
+        drawCharacter(g);
+    }
+
+    for (auto &g : airspace_->Heli)
+    {
+        drawCharacter(g);
+    }
+
+    for (auto &g : airspace_->Plane)
     {
         drawCharacter(g);
     }
@@ -68,21 +56,17 @@ void Radar::drawAllGhosts()
 
 void Radar::drawCharacter(const Aircraft &obj) const
 {
-    gamedisplay_.drawRect(obj.color,
-                          obj.position.x,
-                          obj.position.y,
-                          obj.size.width,
-                          obj.size.height);
-}
-
-void Radar::updateGhosts()
-{
+    RadarDisplay_.drawRect(obj.color,
+                           obj.position.x,
+                           obj.position.y,
+                           obj.size.width,
+                           obj.size.height);
 }
 
 void Radar::handleEvent()
 {
     if (event_.type == Expose)
     {
-        draw();
+        drawAllGhosts();
     }
 }
