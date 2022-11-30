@@ -1,6 +1,6 @@
 <map id="Radar/Pixel/Pixel.cpp" name="Radar/Pixel/Pixel.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="138,5,286,32"/>
-<area shape="rect" id="node2" href="$Pixel_8h.html" title="This file contains declarations for the pixel class." alt="" coords="181,80,243,107"/>
+<area shape="rect" id="node1" title="This file contains the function for the class Pixel." alt="" coords="138,5,286,32"/>
+<area shape="rect" id="node2" href="$Pixel_8h.html" title="This file contains the class declaration for the pixel class." alt="" coords="181,80,243,107"/>
 <area shape="rect" id="node3" href="$main_8h.html" title=" " alt="" coords="5,155,112,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="136,155,197,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="221,155,293,181"/>

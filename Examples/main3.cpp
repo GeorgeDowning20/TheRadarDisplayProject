@@ -1,4 +1,3 @@
-#include "../Radar/Pixel/Pixel.h"   // Pixel.h
 #include "../Radar/Pixel/Pixel.cpp" // Pixel.cpp
 
 int main()

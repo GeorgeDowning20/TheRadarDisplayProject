@@ -1,6 +1,4 @@
-#include "../Radar/Pixel/Pixel.h"   // Pixel.h
 #include "../Radar/Pixel/Pixel.cpp" // Pixel.cpp
-#include "../Radar/Icon/Icon.h"     // Icon.h
 #include "../Radar/Icon/Icon.cpp"   // Icon.cpp
 
 int main()

@@ -1,14 +1,26 @@
-#pragma once
-
+//---------------------------------------------------------------------------//
 /// @file Pixel.h
-/// @brief This file contains declarations for the pixel class
+/// @brief This file contains the class declaration for the pixel class
 /// @author G.Downing
 /// @date 2020-11-24
+/// @copyright (c) 2022 G. Downing
+/// @details This file contains the class declaration for the pixel class and function prototypes. this class represents a pixel on the radar display and contains the x and y coordinates and the colour of the pixel as well as functions to show the details of the pixel. This class is used by the icon class to represent the pixels in an icon. This class is also used by the radar class to represent the pixels on the radar display. This class is also used by the radarDisplay class to represent the pixels on the radar display. This class is also used by the radarDisplay class to represent the pixels on the radar display.
+/// @details Doxygen Documentation for project: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
+//---------------------------------------------------------------------------//
 
-#include "../../src/main.h"
-#include <cstdint>
-#include <iostream>
-#include <algorithm>
+//---------------------------------------------------------------------------//
+//                           Preprocessor Directives
+//---------------------------------------------------------------------------//
+#pragma once // Include guard
+
+#include "../../src/main.h" // main.h
+#include <cstdint>          // uint8_t
+#include <iostream>         // std::cout
+#include <algorithm>        // std::min
+
+//---------------------------------------------------------------------------//
+//                           Class Declaration
+//---------------------------------------------------------------------------//
 
 /// @brief This class represents a single pixel
 /// @details This class represents a single pixel and contains all the information required to represent a pixel. This includes the x and y coordinates and the brightness of the pixel. This class also contains functions to show the details of the pixel. This class is used by the icon class to represent the pixels in an icon.
@@ -50,15 +62,15 @@ public:
 
     /// @brief Set the x coordinate of the pixel
     /// @param[in,out] x The x coordinate of the pixel
-    void setX(float x);
+    enum status_e setX(float x);
 
     /// @brief Set the y coordinate of the pixel
     /// @param[in,out] y The y coordinate of the pixel
-    void setY(float y);
+    enum status_e setY(float y);
 
     /// @brief Set the brightness of the pixel
     /// @param[in,out] brightness The brightness of the pixel (0-20)
-    void setBrightness(uint8_t brightness);
+    enum status_e setBrightness(uint8_t brightness);
 
     /// @brief Show the details of the pixel
     /// @return STATUS_OK

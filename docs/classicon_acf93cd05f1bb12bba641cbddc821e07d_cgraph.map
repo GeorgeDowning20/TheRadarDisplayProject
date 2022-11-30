@@ -1,6 +1,6 @@
 <map id="icon::setPixel" name="icon::setPixel">
 <area shape="rect" id="node1" title=" " alt="" coords="5,56,107,83"/>
-<area shape="rect" id="node2" href="$classpixel.html#ac7a588075399d9c61155f468cba62caf" title="Set the brightness of the pixel." alt="" coords="155,5,292,32"/>
-<area shape="rect" id="node3" href="$classpixel.html#a59ec852c6cbf717923ba2c78821c4ad8" title="Set the x coordinate of the pixel." alt="" coords="181,56,265,83"/>
-<area shape="rect" id="node4" href="$classpixel.html#a7138ff1229a355973e451b0bf5171bd5" title="Set the y coordinate of the pixel." alt="" coords="181,107,265,133"/>
+<area shape="rect" id="node2" href="$classpixel.html#a38b878a1cd88a8fb3ab0f4360f1ff3ae" title="Set the brightness of the pixel." alt="" coords="155,5,292,32"/>
+<area shape="rect" id="node3" href="$classpixel.html#a722455907d18f89e0989a0998c944315" title="Set the x coordinate of the pixel." alt="" coords="181,56,265,83"/>
+<area shape="rect" id="node4" href="$classpixel.html#ad9e609c5d2ee271977ca53e810594a3b" title="Set the y coordinate of the pixel." alt="" coords="181,107,265,133"/>
 </map>
