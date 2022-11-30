@@ -1,5 +1,6 @@
 <map id="pixel::setY" name="pixel::setY">
-<area shape="rect" id="node1" title="Set the y coordinate of the pixel." alt="" coords="212,42,296,69"/>
-<area shape="rect" id="node2" href="$classicon.html#a221927b72787ba82f7cd414d8a9effc5" title=" " alt="" coords="5,5,164,47"/>
-<area shape="rect" id="node3" href="$classicon.html#acf93cd05f1bb12bba641cbddc821e07d" title=" " alt="" coords="34,71,135,98"/>
+<area shape="rect" id="node1" title="Set the y coordinate of the pixel." alt="" coords="311,42,395,69"/>
+<area shape="rect" id="node2" href="$classicon.html#a221927b72787ba82f7cd414d8a9effc5" title=" " alt="" coords="104,5,263,47"/>
+<area shape="rect" id="node4" href="$classicon.html#acf93cd05f1bb12bba641cbddc821e07d" title=" " alt="" coords="133,71,234,98"/>
+<area shape="rect" id="node3" href="$main5_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,56,39"/>
 </map>

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['screen_5f_282',['screen_',['../classRadarDisplay.html#aa25671a5e5666e8c3c453036929e9621',1,'RadarDisplay']]],
-  ['size_283',['size',['../structAircraft.html#acbe86ceb02454bdbe9f15601491181f6',1,'Aircraft']]],
-  ['start_5f_284',['start_',['../class__Time.html#ac348b007a9373368c9e5d3f5333a6c44',1,'_Time']]],
-  ['stop_285',['STOP',['../classRadar.html#abd5093b82afeef4cc4d6d316486d2be8',1,'Radar']]]
+  ['the_5fpixels_288',['The_Pixels',['../classicon.html#a1f3f7458334e08d255bf6d61ecb08d6b',1,'icon']]],
+  ['time_5f_289',['time_',['../structJet__s.html#a6dc4e535aeeda5a0818b37effc415925',1,'Jet_s::time_()'],['../structHeli__s.html#ac0cea223124e19f9a753c8295d56093c',1,'Heli_s::time_()'],['../structPlane__s.html#a056a4600c4a624c6d481e31fc2a824f3',1,'Plane_s::time_()']]],
+  ['time_5fat_5flast_5fmove_5fns_5f_290',['time_at_last_move_ns_',['../structJet__s.html#a76a655894e900a7dc57e95337f822c9c',1,'Jet_s::time_at_last_move_ns_()'],['../structHeli__s.html#a2b7476762b750db7539c0ed8f3873e63',1,'Heli_s::time_at_last_move_ns_()'],['../structPlane__s.html#ae7c7571939a8ecb0a31a76b548e7a277',1,'Plane_s::time_at_last_move_ns_()']]]
 ];

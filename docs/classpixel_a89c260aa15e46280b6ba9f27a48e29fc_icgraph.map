@@ -1,4 +1,5 @@
 <map id="pixel::showDetail" name="pixel::showDetail">
-<area shape="rect" id="node1" title="Show the details of the pixel." alt="" coords="180,5,303,32"/>
-<area shape="rect" id="node2" href="$classicon.html#ad3be7b825fa5e56ed6b77d48c4087712" title=" " alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node1" title="Show the details of the pixel." alt="" coords="279,5,401,32"/>
+<area shape="rect" id="node2" href="$classicon.html#ad3be7b825fa5e56ed6b77d48c4087712" title=" " alt="" coords="104,5,231,32"/>
+<area shape="rect" id="node3" href="$main5_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,56,32"/>
 </map>

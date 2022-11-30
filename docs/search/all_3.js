@@ -8,6 +8,5 @@ var searchData=
   ['cmakelists_2etxt_19',['CMakeLists.txt',['../CMakeLists_8txt.html',1,'']]],
   ['color_20',['color',['../structAircraft.html#ad70b76419a72e4f290e785fb377c1a46',1,'Aircraft']]],
   ['compiler_5fid_21',['COMPILER_ID',['../CMakeCCompilerId_8c.html#a81dee0709ded976b2e0319239f72d174',1,'COMPILER_ID():&#160;CMakeCCompilerId.c'],['../CMakeCXXCompilerId_8cpp.html#a81dee0709ded976b2e0319239f72d174',1,'COMPILER_ID():&#160;CMakeCXXCompilerId.cpp']]],
-  ['createghosts_22',['createGhosts',['../classAirSpace.html#a814b34c59b7778d12a687d58b9e0d4e3',1,'AirSpace::createGhosts()'],['../classRadar.html#a11d03e196f9d12b4fcaaf250634014f6',1,'Radar::createGhosts()']]],
-  ['cxx_5fstd_23',['CXX_STD',['../CMakeCXXCompilerId_8cpp.html#a34cc889e576a1ae6c84ae9e0a851ba21',1,'CMakeCXXCompilerId.cpp']]]
+  ['cxx_5fstd_22',['CXX_STD',['../CMakeCXXCompilerId_8cpp.html#a34cc889e576a1ae6c84ae9e0a851ba21',1,'CMakeCXXCompilerId.cpp']]]
 ];

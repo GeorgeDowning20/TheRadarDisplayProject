@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['width_291',['width',['../structSize.html#aa1f23158085de487cfd5434301c077a4',1,'Size::width()'],['../structRect.html#a367714e71d566668addb140c7981b5bc',1,'Rect::width()']]],
-  ['window_5f_292',['window_',['../classRadarDisplay.html#a71f8fd1bb6d953217b1e8f13b6e26fc5',1,'RadarDisplay']]]
+  ['x_295',['x',['../structPoint.html#a8c779e11e694b20e0946105a9f5de842',1,'Point::x()'],['../structRect.html#a64d1ef14e429e1816539de4c54361e55',1,'Rect::x()'],['../classpixel.html#a0fd8cbfaee35453c73320bb24852d664',1,'pixel::x()']]]
 ];

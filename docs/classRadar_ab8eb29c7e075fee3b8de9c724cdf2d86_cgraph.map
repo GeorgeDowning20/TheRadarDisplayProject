@@ -1,5 +1,7 @@
 <map id="Radar::drawAllGhosts" name="Radar::drawAllGhosts">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$classRadar.html#a6a3ffe6f428aea8f40a40bb75cc702c4" title=" " alt="" coords="204,5,355,32"/>
-<area shape="rect" id="node3" href="$classRadarDisplay.html#a25e5d9f9378ee1d1c575005e6094291d" title=" " alt="" coords="403,5,568,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,156,83"/>
+<area shape="rect" id="node2" href="$classRadarDisplay.html#aaf1ae0d2de3fbf40abcc8d669e73d928" title=" " alt="" coords="204,56,387,83"/>
+<area shape="rect" id="node3" href="$classicon.html#af86bb9d600683df4961d0d767bc75797" title=" " alt="" coords="435,5,536,32"/>
+<area shape="rect" id="node4" href="$classpixel.html#a448bceb0c69be0a1e73032bb5ea33998" title="Show the x coordinate of the pixel." alt="" coords="443,56,527,83"/>
+<area shape="rect" id="node5" href="$classpixel.html#ac4045564802fba246c56cc46d36be6af" title="Show the y coordinate of the pixel." alt="" coords="443,107,527,133"/>
 </map>
