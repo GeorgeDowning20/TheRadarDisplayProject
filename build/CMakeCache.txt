@@ -422,12 +422,6 @@ pkgcfg_lib_PKG_FONTCONFIG_fontconfig:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontc
 //Path to a library.
 pkgcfg_lib_PKG_FONTCONFIG_freetype:FILEPATH=/usr/lib/x86_64-linux-gnu/libfreetype.so
 
-//Value Computed by CMake
-x11game-project_BINARY_DIR:STATIC=/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build
-
-//Value Computed by CMake
-x11game-project_SOURCE_DIR:STATIC=/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject
-
 
 ########################
 # INTERNAL cache entries

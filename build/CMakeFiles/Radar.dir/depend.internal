@@ -4,14 +4,26 @@
 CMakeFiles/Radar.dir/Radar/Aircraft/Aircraft.cpp.o
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.cpp
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Heli.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Jet.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Plane.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/def.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
 CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.cpp
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Heli.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Jet.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Plane.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/def.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
 CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.cpp
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
@@ -24,18 +36,36 @@ CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o
 CMakeFiles/Radar.dir/Radar/Radar.cpp.o
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Heli.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Jet.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Plane.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/def.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
 CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Heli.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Jet.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Plane.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.cpp
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/def.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
 CMakeFiles/Radar.dir/src/main.cpp.o
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Heli.inc
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Jet.inc
+ /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Plane.inc
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.h
  /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.h

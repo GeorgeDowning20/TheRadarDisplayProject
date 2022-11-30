@@ -17,7 +17,7 @@ icon::icon(pixel __The_Pixels[])
     }
 };
 
-pixel icon::getPixel(uint8_t pixelId)
+pixel icon::getPixel(uint8_t pixelId) const
 {
     return The_Pixels[pixelId];
 }

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.cpp
-Aircraft.h
-/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
-
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
 ../def.h
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/def.h
 ../Time/Time.h
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
-
-/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.cpp
-Airspace.h
-/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.h
+../Icon/Icon.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
+../Icon/Jet.inc
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Jet.inc
+../Icon/Plane.inc
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Plane.inc
+../Icon/Heli.inc
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Heli.inc
 
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.h
 ../Aircraft/Aircraft.h
@@ -27,6 +27,8 @@ iostream
 -
 vector
 -
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Heli.inc
 
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.h
 cstdint
@@ -38,6 +40,14 @@ iostream
 ../Pixel/Pixel.h
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
 
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Jet.inc
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Plane.inc
+
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.cpp
+Pixel.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
+
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.h
 ../../src/main.h
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.h
@@ -47,10 +57,6 @@ iostream
 -
 algorithm
 -
-
-/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp
-Radar.h
-/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.h
 
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.h
 X11/Xlib.h
@@ -67,6 +73,8 @@ X11/Xlib.h
 -
 iostream
 -
+../Aircraft/Aircraft.h
+/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.h
 
 /home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Time/Time.h
 chrono

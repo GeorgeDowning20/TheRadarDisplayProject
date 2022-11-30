@@ -38,15 +38,15 @@ public:
 
     /// @brief Show the x coordinate of the pixel
     /// @return The x coordinate of the pixel
-    float getX();
+    float getX() const;
 
     /// @brief  Show the y coordinate of the pixel
     /// @return The y coordinate of the pixel
-    float getY();
+    float getY() const;
 
     /// @brief Show the brightness of the pixel
     /// @return The brightness of the pixel
-    uint8_t getBrightness();
+    uint8_t getBrightness() const;
 
     /// @brief Set the x coordinate of the pixel
     /// @param[in,out] x The x coordinate of the pixel

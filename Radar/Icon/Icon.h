@@ -20,7 +20,7 @@ public:
 
     icon(pixel __The_Pixels[]);
 
-    pixel getPixel(uint8_t pixelId);
+    pixel getPixel(uint8_t pixelId) const;
     uint8_t getId();
 
     enum status_e setPixel(uint8_t pixelId, pixel const &pixel);

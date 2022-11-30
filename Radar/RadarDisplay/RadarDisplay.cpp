@@ -22,7 +22,7 @@ RadarDisplay::~RadarDisplay()
     XCloseDisplay(display_);
 }
 
-Display *RadarDisplay::getDisplay()
+Display *RadarDisplay::getDisplay() const
 {
     return display_;
 }
@@ -32,6 +32,15 @@ void RadarDisplay::drawRect(unsigned long col, int x, int y, int width, int heig
     XSetForeground(display_, DefaultGC(display_, screen_), col);
     XFillRectangle(display_, window_, DefaultGC(display_, screen_), x, y, width, height);
     XFillRectangle(display_, window_, DefaultGC(display_, screen_), x + 5, y + 5, width, height);
+}
+
+void RadarDisplay::DrawAircraft(const Aircraft &obj)
+{
+    XSetForeground(display_, DefaultGC(display_, screen_), obj.color);
+    for (int i = 0; i < 16; i++)
+    {
+        XFillRectangle(display_, window_, DefaultGC(display_, screen_), obj.position.x + (obj.icon_.getPixel(i).getX() * obj.size.width), obj.position.y + (obj.icon_.getPixel(i).getY() * obj.size.height), obj.size.width, obj.size.height);
+    }
 }
 
 void RadarDisplay::redraw()

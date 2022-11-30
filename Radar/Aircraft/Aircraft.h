@@ -2,12 +2,18 @@
 
 #include "../def.h"
 #include "../Time/Time.h"
+#include "../Icon/Icon.h"
+#include "../Icon/Jet.inc"
+#include "../Icon/Plane.inc"
+#include "../Icon/Heli.inc"
 
+// define a set of 16 pixels to represent a jet
 struct Aircraft
 {
     unsigned long color = 0x6091ab;
     Point position{10, 10};
-    Size size{10, 10};
+    Size size{3, 3};
+    icon icon_;
 
     Aircraft(unsigned long new_col, Point new_pos, Size new_sz)
         : color(new_col), position(new_pos), size(new_sz){};

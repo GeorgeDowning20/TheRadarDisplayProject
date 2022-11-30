@@ -16,7 +16,6 @@ private:
     XEvent event_;
     bool is_running_ = true;
     bool STOP = false;
-    bool game_won = false;
 
     AirSpace *airspace_;
 
@@ -24,5 +23,4 @@ private:
     void handleEvent();
     void drawAllGhosts();
     void update();
-    void drawCharacter(const Aircraft &obj) const;
 };

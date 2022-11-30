@@ -40,27 +40,18 @@ void Radar::drawAllGhosts()
 {
     for (auto &g : airspace_->Jet)
     {
-        drawCharacter(g);
+        RadarDisplay_.DrawAircraft(g);
     }
 
     for (auto &g : airspace_->Heli)
     {
-        drawCharacter(g);
+        RadarDisplay_.DrawAircraft(g);
     }
 
     for (auto &g : airspace_->Plane)
     {
-        drawCharacter(g);
+        RadarDisplay_.DrawAircraft(g);
     }
-}
-
-void Radar::drawCharacter(const Aircraft &obj) const
-{
-    RadarDisplay_.drawRect(obj.color,
-                           obj.position.x,
-                           obj.position.y,
-                           obj.size.width,
-                           obj.size.height);
 }
 
 void Radar::handleEvent()

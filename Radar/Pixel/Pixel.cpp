@@ -1,5 +1,3 @@
-
-
 #include "Pixel.h"
 
 /// @details This is the default constructor for the pixel class. It sets the x and y coordinates to 0 and the brightness to 0.
@@ -43,17 +41,17 @@ enum status_e pixel::showDetail()
     return pixel::showPixelDetail(*this);
 }
 
-float pixel::getX()
+float pixel::getX() const
 {
     return x;
 }
 
-float pixel::getY()
+float pixel::getY() const
 {
     return y;
 }
 
-uint8_t pixel::getBrightness()
+uint8_t pixel::getBrightness() const
 {
     return Brightness;
 }

@@ -21,12 +21,11 @@
 
 int main()
 {
-
     AirSpace Lasham(5, 6, 7);
-    AirSpace test(5, 6, 7);
+    AirSpace London(5, 6, 7);
 
     Radar g(Lasham);
-    Radar q(test);
+    Radar q(London);
 
     while (1)
     {
