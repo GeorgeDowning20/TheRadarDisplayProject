@@ -1,10 +1,5 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,107,56,133"/>
-<area shape="rect" id="node2" href="$classicon.html#a221927b72787ba82f7cd414d8a9effc5" title=" " alt="" coords="104,59,263,101"/>
-<area shape="rect" id="node6" href="$classicon.html#ad3be7b825fa5e56ed6b77d48c4087712" title=" " alt="" coords="120,136,247,163"/>
-<area shape="rect" id="node3" href="$classpixel.html#a38b878a1cd88a8fb3ab0f4360f1ff3ae" title="Set the brightness of the pixel." alt="" coords="311,5,448,32"/>
-<area shape="rect" id="node4" href="$classpixel.html#a722455907d18f89e0989a0998c944315" title="Set the x coordinate of the pixel." alt="" coords="337,56,421,83"/>
-<area shape="rect" id="node5" href="$classpixel.html#ad9e609c5d2ee271977ca53e810594a3b" title="Set the y coordinate of the pixel." alt="" coords="337,107,421,133"/>
-<area shape="rect" id="node7" href="$classpixel.html#a89c260aa15e46280b6ba9f27a48e29fc" title="Show the details of the pixel." alt="" coords="318,157,441,184"/>
-<area shape="rect" id="node8" href="$classpixel.html#a8d7cb9e2961eba68009f864ecebe61a2" title="Show the details of the pixel." alt="" coords="496,157,647,184"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,56,69"/>
+<area shape="rect" id="node2" href="$classicon.html#a221927b72787ba82f7cd414d8a9effc5" title=" " alt="" coords="104,5,263,47"/>
+<area shape="rect" id="node3" href="$classicon.html#ad3be7b825fa5e56ed6b77d48c4087712" title=" " alt="" coords="120,71,247,98"/>
 </map>

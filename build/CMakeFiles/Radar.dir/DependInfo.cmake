@@ -1,21 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.cpp" "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir/Radar/Aircraft/Aircraft.cpp.o"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.cpp" "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.cpp" "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.cpp" "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp" "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir/Radar/Radar.cpp.o"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.cpp" "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.cpp" "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles/Radar.dir/src/main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Aircraft/Aircraft.cpp" "CMakeFiles/Radar.dir/Radar/Aircraft/Aircraft.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Aircraft/Aircraft.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.cpp" "CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.cpp" "CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.cpp" "CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp" "CMakeFiles/Radar.dir/Radar/Radar.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Radar.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.cpp" "CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.cpp" "CMakeFiles/Radar.dir/src/main.cpp.o" "gcc" "CMakeFiles/Radar.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

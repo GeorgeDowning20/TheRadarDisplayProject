@@ -32,11 +32,11 @@ CMAKE_CXX_COMPILER:FILEPATH=/usr/lib/ccache/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-9
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-9
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -58,11 +58,11 @@ CMAKE_C_COMPILER:FILEPATH=/usr/lib/ccache/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-9
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-9
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -98,7 +98,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
@@ -107,7 +107,7 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -227,11 +227,17 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Value Computed by CMake
 Radar-project_BINARY_DIR:STATIC=/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build
+
+//Value Computed by CMake
+Radar-project_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Radar-project_SOURCE_DIR:STATIC=/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject
@@ -253,6 +259,12 @@ X11_X11_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_X11_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libX11.so
+
+//Path to a file.
+X11_X11_xcb_INCLUDE_PATH:PATH=X11_X11_xcb_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_X11_xcb_LIB:FILEPATH=X11_X11_xcb_LIB-NOTFOUND
 
 //Path to a file.
 X11_XRes_INCLUDE_PATH:PATH=X11_XRes_INCLUDE_PATH-NOTFOUND
@@ -277,6 +289,12 @@ X11_Xau_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_Xau_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXau.so
+
+//Path to a file.
+X11_Xaw_INCLUDE_PATH:PATH=X11_Xaw_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xaw_LIB:FILEPATH=X11_Xaw_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
@@ -411,6 +429,45 @@ X11_Xxf86vm_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXxf86vm.so
 X11_dpms_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
+X11_xcb_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libxcb.so
+
+//Path to a file.
+X11_xcb_icccm_INCLUDE_PATH:PATH=X11_xcb_icccm_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_icccm_LIB:FILEPATH=X11_xcb_icccm_LIB-NOTFOUND
+
+//Path to a file.
+X11_xcb_util_INCLUDE_PATH:PATH=X11_xcb_util_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_util_LIB:FILEPATH=X11_xcb_util_LIB-NOTFOUND
+
+//Path to a file.
+X11_xcb_xfixes_INCLUDE_PATH:PATH=X11_xcb_xfixes_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_xfixes_LIB:FILEPATH=X11_xcb_xfixes_LIB-NOTFOUND
+
+//Path to a library.
+X11_xcb_xkb_LIB:FILEPATH=X11_xcb_xkb_LIB-NOTFOUND
+
+//Path to a file.
+X11_xkbcommon_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xkbcommon_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
+
+//Path to a file.
+X11_xkbcommon_X11_INCLUDE_PATH:PATH=X11_xkbcommon_X11_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xkbcommon_X11_LIB:FILEPATH=X11_xkbcommon_X11_LIB-NOTFOUND
+
+//Path to a file.
 X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
@@ -436,9 +493,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/g/Uni code/Design and Implementation of Engin
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=16
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -549,7 +606,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.16
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.22
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -594,6 +651,8 @@ FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Fontconfig_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Fontconfig_LIBRARY
 Fontconfig_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 PKG_FONTCONFIG_CFLAGS:INTERNAL=-I/usr/include/uuid;-I/usr/include/freetype2;-I/usr/include/libpng16
@@ -602,11 +661,11 @@ PKG_FONTCONFIG_CFLAGS_OTHER:INTERNAL=
 PKG_FONTCONFIG_FOUND:INTERNAL=1
 PKG_FONTCONFIG_INCLUDEDIR:INTERNAL=/usr/include
 PKG_FONTCONFIG_INCLUDE_DIRS:INTERNAL=/usr/include/uuid;/usr/include/freetype2;/usr/include/libpng16
-PKG_FONTCONFIG_LDFLAGS:INTERNAL=-lfontconfig;-lfreetype
+PKG_FONTCONFIG_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfontconfig;-lfreetype
 PKG_FONTCONFIG_LDFLAGS_OTHER:INTERNAL=
 PKG_FONTCONFIG_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 PKG_FONTCONFIG_LIBRARIES:INTERNAL=fontconfig;freetype
-PKG_FONTCONFIG_LIBRARY_DIRS:INTERNAL=
+PKG_FONTCONFIG_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 PKG_FONTCONFIG_LIBS:INTERNAL=
 PKG_FONTCONFIG_LIBS_L:INTERNAL=
 PKG_FONTCONFIG_LIBS_OTHER:INTERNAL=
@@ -617,11 +676,11 @@ PKG_FONTCONFIG_STATIC_CFLAGS:INTERNAL=-I/usr/include/uuid;-I/usr/include/freetyp
 PKG_FONTCONFIG_STATIC_CFLAGS_I:INTERNAL=
 PKG_FONTCONFIG_STATIC_CFLAGS_OTHER:INTERNAL=
 PKG_FONTCONFIG_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/uuid;/usr/include/freetype2;/usr/include/libpng16
-PKG_FONTCONFIG_STATIC_LDFLAGS:INTERNAL=-lfontconfig;-luuid;-lexpat;-lfreetype;-lpng16;-lm;-lz;-lm;-lz
+PKG_FONTCONFIG_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfontconfig;-luuid;-lexpat;-lm;-lfreetype;-lpng16;-lm;-lz;-lm;-lz;-lbrotlidec;-lbrotlicommon
 PKG_FONTCONFIG_STATIC_LDFLAGS_OTHER:INTERNAL=
 PKG_FONTCONFIG_STATIC_LIBDIR:INTERNAL=
-PKG_FONTCONFIG_STATIC_LIBRARIES:INTERNAL=fontconfig;uuid;expat;freetype;png16;m;z;m;z
-PKG_FONTCONFIG_STATIC_LIBRARY_DIRS:INTERNAL=
+PKG_FONTCONFIG_STATIC_LIBRARIES:INTERNAL=fontconfig;uuid;expat;m;freetype;png16;m;z;m;z;brotlidec;brotlicommon
+PKG_FONTCONFIG_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
 PKG_FONTCONFIG_STATIC_LIBS:INTERNAL=
 PKG_FONTCONFIG_STATIC_LIBS_L:INTERNAL=
 PKG_FONTCONFIG_STATIC_LIBS_OTHER:INTERNAL=
@@ -645,6 +704,10 @@ X11_SM_LIB-ADVANCED:INTERNAL=1
 X11_X11_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_X11_LIB
 X11_X11_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_X11_xcb_INCLUDE_PATH
+X11_X11_xcb_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_X11_xcb_LIB
+X11_X11_xcb_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_XRes_INCLUDE_PATH
 X11_XRes_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_XRes_LIB
@@ -661,6 +724,10 @@ X11_Xaccessstr_INCLUDE_PATH-ADVANCED:INTERNAL=1
 X11_Xau_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xau_LIB
 X11_Xau_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xaw_INCLUDE_PATH
+X11_Xaw_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xaw_LIB
+X11_Xaw_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xcomposite_INCLUDE_PATH
 X11_Xcomposite_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xcomposite_LIB
@@ -749,6 +816,32 @@ X11_Xxf86vm_INCLUDE_PATH-ADVANCED:INTERNAL=1
 X11_Xxf86vm_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_dpms_INCLUDE_PATH
 X11_dpms_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_INCLUDE_PATH
+X11_xcb_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_LIB
+X11_xcb_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_icccm_INCLUDE_PATH
+X11_xcb_icccm_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_icccm_LIB
+X11_xcb_icccm_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_util_INCLUDE_PATH
+X11_xcb_util_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_util_LIB
+X11_xcb_util_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xfixes_INCLUDE_PATH
+X11_xcb_xfixes_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xfixes_LIB
+X11_xcb_xfixes_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xkb_LIB
+X11_xcb_xkb_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_INCLUDE_PATH
+X11_xkbcommon_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_LIB
+X11_xkbcommon_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_X11_INCLUDE_PATH
+X11_xkbcommon_X11_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_X11_LIB
+X11_xkbcommon_X11_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_INCLUDE_PATH
 X11_xkbfile_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_LIB

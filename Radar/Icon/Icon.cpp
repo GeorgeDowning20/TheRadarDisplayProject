@@ -1,14 +1,41 @@
+//---------------------------------------------------------------------------//
+/// @file Icon.cpp
+/// @brief This file contains the definitions for the icon class
+/// @author G.Downing
+/// @date 2020-11-24
+/// @copyright (c) 2022 G. Downing
+/// @details This file contains the definitions for the icon class. The icon class is used to create an icon. The icon is used to represent an aircraft on the radar display.
+/// @details Doxygen Documentation for project: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
+//---------------------------------------------------------------------------//
+
+//---------------------------------------------------------------------------//
+//                        Preprocessor Directives
+//---------------------------------------------------------------------------//
 #include "Icon.h"
 
-icon::icon() = default;                                   // This is the default constructor
-icon::icon(uint8_t Id) : Id(Id){};                        // This is the constructor with one parameter
-icon::icon(uint8_t __Id, pixel __The_Pixels[]) : Id(__Id) // This is the constructor with two parameters
+//---------------------------------------------------------------------------//
+//                           Class Definitions
+//---------------------------------------------------------------------------//
+
+/// @details This is the default constructor for the icon class. It is used to create an icon object.
+icon::icon() = default;
+
+/// @details This is the constructor for the icon class that takes an id. It is used to create an icon object.
+icon::icon(uint8_t Id) : Id(Id){};
+
+icon::~icon() = default;
+
+/// @details This is the constructor for the icon class that takes an id and an array of pixels. It is used to create an icon object. The pixels are iterated through and added to the icon object.
+/// @note This constructor is the best way to create an icon object.
+icon::icon(uint8_t __Id, pixel __The_Pixels[]) : Id(__Id)
 {
-    for (int i = 0; i < 16; i++) // loop through the pixels
+    for (int i = 0; i < 16; i++)
     {
-        The_Pixels[i] = __The_Pixels[i]; // copy the pixels from the array passed in to the array in the class
+        The_Pixels[i] = __The_Pixels[i];
     }
 }
+
+/// @brief This is the constructor for the icon class that takes in an array of pixels. It is used to create an icon object. The pixels are iterated through and added to the icon object.
 icon::icon(pixel __The_Pixels[])
 {
     for (int i = 0; i < 16; i++)
@@ -17,6 +44,7 @@ icon::icon(pixel __The_Pixels[])
     }
 };
 
+/// @details This function is used to get the pixel at the specified index.
 pixel icon::getPixel(uint8_t pixelId) const
 {
     return The_Pixels[pixelId];

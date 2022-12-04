@@ -29,7 +29,8 @@ pixel::pixel()
 /// @details This is the default constructor for the pixel class. It sets the x and y coordinates to the values passed in and the brightness to the value passed in.
 /// @par Example:
 /// @include main2.cpp
-pixel::pixel(float x, float y, uint8_t Brightness) : x(x), y(y), Brightness(Brightness){}; // Constructor with x, y and Brightness
+pixel::pixel(float x, float y, uint8_t Brightness) : x(x),
+                                                     y(y), Brightness(Brightness){}; // Constructor with x, y and Brightness
 
 /// @details This is the default constructor for the pixel class. It sets the x and y coordinates to the values passed in and the brightness to 0.
 pixel::pixel(float x, float y) : x(x), y(y) { Brightness = 0; }; // Constructor with x and y
