@@ -1,3 +1,4 @@
+// Jet Icon Design:
 static pixel JetIcon[16] = {
     pixel(1, 5, 20),
     pixel(2, 5, 20),

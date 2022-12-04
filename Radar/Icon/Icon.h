@@ -62,6 +62,10 @@ public:
     /// @return The id of the icon
     uint8_t getId();
 
+    /// @brief Set specific pixel in icon
+    /// @param pixelId The id of the pixel to be changed
+    /// @param pixel reference to the pixel to be set
+    /// @return Status of the operation #status_e
     enum status_e setPixel(uint8_t pixelId, pixel const &pixel);
 
     enum status_e setPixel(uint8_t pixelId, float x, float y, uint8_t Brightness);

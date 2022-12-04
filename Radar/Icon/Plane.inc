@@ -1,3 +1,4 @@
+// Plane Icon Design:
 static pixel PlaneIcon[16] = {
     pixel(3, 0, 20),
     pixel(1, 1, 20),
