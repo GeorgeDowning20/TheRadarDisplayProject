@@ -27,7 +27,7 @@ struct Jet_s : public Aircraft
 
     void move();
 
-    bool isTimeToMove();
+    bool is_Time_To_Move();
 
     long time_at_last_move_ns_;
     long move_time_ns_{250'000'000};
@@ -40,7 +40,7 @@ struct Heli_s : public Aircraft
 
     void move();
 
-    bool isTimeToMove();
+    bool is_Time_To_Move();
 
     long time_at_last_move_ns_;
     long move_time_ns_{500'000'000};
@@ -53,7 +53,7 @@ struct Plane_s : public Aircraft
 
     void move();
 
-    bool isTimeToMove();
+    bool is_Time_To_Move();
 
     long time_at_last_move_ns_;
     long move_time_ns_{800'000'000};

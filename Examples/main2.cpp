@@ -28,9 +28,9 @@ int main()
 {
     pixel aPixel(3.7, 4.1, 7); // Create a pixel object with the specified input data: x and y coordinates to 3.9 and 4.1 and its brightness to 7.
 
-    std::cout << "Pixel at (" << aPixel.getX()                                // Print the x coordinate of the pixel
-              << ", " << aPixel.getY()                                        // Print the y coordinate of the pixel
-              << ") has a brightness of " << unsigned(aPixel.getBrightness()) // Print the brightness of the pixel
-              << " \n " << std::endl;                                         // Print a new line
+    std::cout << "Pixel at (" << aPixel.get_X()                                // Print the x coordinate of the pixel
+              << ", " << aPixel.get_Y()                                        // Print the y coordinate of the pixel
+              << ") has a brightness of " << unsigned(aPixel.get_Brightness()) // Print the brightness of the pixel
+              << " \n " << std::endl;                                          // Print a new line
     return 0;
 }

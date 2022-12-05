@@ -1,0 +1,9 @@
+<map id="pixel::get_Y" name="pixel::get_Y">
+<area shape="rect" id="node1" title="Show the y coordinate of the pixel." alt="" coords="851,42,941,69"/>
+<area shape="rect" id="node2" href="$classRadar__Screen.html#a91ac2dacbb350e48d8ed6b77e4656304" title=" " alt="" coords="659,5,803,47"/>
+<area shape="rect" id="node7" href="$main2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="705,71,756,98"/>
+<area shape="rect" id="node3" href="$classradarDisplay.html#ae71a9025e7f4eb96ee78af037ca7f4e6" title="Display all aircraft in the airspace on the radar display window." alt="" coords="469,5,611,47"/>
+<area shape="rect" id="node4" href="$classradarDisplay.html#aa7f219ae00d5925daa65efb9db8488ef" title="handle the starting conditions" alt="" coords="273,5,421,47"/>
+<area shape="rect" id="node5" href="$classradarDisplay.html#a90ddc74e28f72f99fa8a59f00ae72d77" title="run the radar display" alt="" coords="104,13,225,39"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="5,13,56,39"/>
+</map>

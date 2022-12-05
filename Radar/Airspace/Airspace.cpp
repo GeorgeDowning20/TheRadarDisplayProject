@@ -1,6 +1,6 @@
 #include "Airspace.h"
 
-AirSpace::AirSpace(int jets, int planes, int helicopters)
+Air_Space::Air_Space(int jets, int planes, int helicopters)
 {
     Jet.clear();
     Jet.resize(jets);
@@ -29,16 +29,16 @@ AirSpace::AirSpace(int jets, int planes, int helicopters)
     }
 }
 
-AirSpace::~AirSpace()
+Air_Space::~Air_Space()
 {
 }
 
-bool AirSpace::updateGhosts()
+bool Air_Space::update_Aircraft()
 {
     update_flag_ = false;
     for (auto &g : Jet)
     {
-        if (g.isTimeToMove())
+        if (g.is_Time_To_Move())
         {
             g.move();
             update_flag_ = true;
@@ -47,7 +47,7 @@ bool AirSpace::updateGhosts()
 
     for (auto &g : Heli)
     {
-        if (g.isTimeToMove())
+        if (g.is_Time_To_Move())
         {
             g.move();
             update_flag_ = true;
@@ -56,7 +56,7 @@ bool AirSpace::updateGhosts()
 
     for (auto &g : Plane)
     {
-        if (g.isTimeToMove())
+        if (g.is_Time_To_Move())
         {
             g.move();
             update_flag_ = true;
@@ -65,7 +65,7 @@ bool AirSpace::updateGhosts()
     return 1;
 }
 
-void AirSpace::test()
+void Air_Space::test()
 {
     if (update_flag_)
         std::cout << update_flag_ << std::endl;

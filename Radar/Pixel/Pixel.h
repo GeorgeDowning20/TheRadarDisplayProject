@@ -54,27 +54,27 @@ public:
 
     /// @brief Show the x coordinate of the pixel
     /// @return The x coordinate of the pixel
-    float getX() const;
+    float get_X() const;
 
     /// @brief  Show the y coordinate of the pixel
     /// @return The y coordinate of the pixel
-    float getY() const;
+    float get_Y() const;
 
     /// @brief Show the brightness of the pixel
     /// @return The brightness of the pixel
-    uint8_t getBrightness() const;
+    uint8_t get_Brightness() const;
 
     /// @brief Set the x coordinate of the pixel
     /// @param[in,out] x The x coordinate of the pixel
-    enum status_e setX(float x);
+    enum status_e set_X(float x);
 
     /// @brief Set the y coordinate of the pixel
     /// @param[in,out] y The y coordinate of the pixel
-    enum status_e setY(float y);
+    enum status_e set_Y(float y);
 
     /// @brief Set the brightness of the pixel
     /// @param[in,out] brightness The brightness of the pixel (0-20)
-    enum status_e setBrightness(uint8_t brightness);
+    enum status_e set_Brightness(uint8_t brightness);
 
     /// @brief Show the details of the pixel
     /// @return STATUS_OK
@@ -87,10 +87,10 @@ public:
 
     /// @brief Show the details of the pixel
     /// @return STATUS_OK
-    enum status_e showDetail();
+    enum status_e show_Detail();
 
     /// @brief Show the details of the pixel
     /// @param[in] pixel The pixel to show the details of
     /// @return STATUS_OK
-    static enum status_e showDetail(pixel const &pixel);
+    static enum status_e show_Detail(pixel const &pixel);
 };

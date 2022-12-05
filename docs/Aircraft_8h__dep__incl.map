@@ -4,8 +4,8 @@
 <area shape="rect" id="node3" href="$Airspace_8h.html" title=" " alt="" coords="205,80,383,107"/>
 <area shape="rect" id="node8" href="$RadarScreen_8h.html" title=" " alt="" coords="408,80,636,107"/>
 <area shape="rect" id="node4" href="$Airspace_8cpp.html" title=" " alt="" coords="107,155,299,181"/>
-<area shape="rect" id="node5" href="$radarDisplay_8h.html" title=" " alt="" coords="324,155,467,181"/>
-<area shape="rect" id="node6" href="$radarDisplay_8cpp.html" title=" " alt="" coords="241,229,398,256"/>
+<area shape="rect" id="node5" href="$radarDisplay_8h.html" title="This file contains the radarDisplay class Definition." alt="" coords="324,155,467,181"/>
+<area shape="rect" id="node6" href="$radarDisplay_8cpp.html" title="This file contains the radarDisplay class Declaration." alt="" coords="241,229,398,256"/>
 <area shape="rect" id="node7" href="$main_8cpp.html" title="This file contains the main function." alt="" coords="423,229,520,256"/>
 <area shape="rect" id="node9" href="$RadarScreen_8cpp.html" title=" " alt="" coords="491,155,734,181"/>
 </map>

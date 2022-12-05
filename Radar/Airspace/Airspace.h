@@ -3,13 +3,13 @@
 #include <iostream>
 #include <vector>
 
-class AirSpace
+class Air_Space
 {
 public:
-    AirSpace(int jets, int planes, int helicopters);
-    ~AirSpace();
+    Air_Space(int jets, int planes, int helicopters);
+    ~Air_Space();
 
-    bool updateGhosts();
+    bool update_Aircraft();
     void test();
 
 private:

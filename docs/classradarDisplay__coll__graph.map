@@ -1,5 +1,5 @@
 <map id="radarDisplay" name="radarDisplay">
-<area shape="rect" id="node1" title=" " alt="" coords="50,95,145,121"/>
-<area shape="rect" id="node2" href="$classAirSpace.html" title=" " alt="" coords="5,5,80,32"/>
-<area shape="rect" id="node3" href="$classRadarScreen.html" title=" " alt="" coords="104,5,203,32"/>
+<area shape="rect" id="node1" title="radarDisplay class" alt="" coords="58,95,153,121"/>
+<area shape="rect" id="node2" href="$classAir__Space.html" title=" " alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node3" href="$classRadar__Screen.html" title=" " alt="" coords="113,5,218,32"/>
 </map>

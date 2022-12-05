@@ -1,13 +1,13 @@
 <map id="radarDisplay::run" name="radarDisplay::run">
-<area shape="rect" id="node1" title=" " alt="" coords="5,81,127,108"/>
-<area shape="rect" id="node2" href="$classradarDisplay.html#a6ae284a56bdb105c063a717561ddbfc0" title=" " alt="" coords="185,5,339,32"/>
-<area shape="rect" id="node4" href="$classradarDisplay.html#a95f42e385d855abd2715e1cb91abd2db" title=" " alt="" coords="175,56,349,83"/>
-<area shape="rect" id="node10" href="$classRadarScreen.html#aeecb802504091dbe0aa506577cfe115d" title=" " alt="" coords="189,107,335,133"/>
-<area shape="rect" id="node11" href="$classAirSpace.html#a2175a9c9e93c1907563460f7a50d7914" title=" " alt="" coords="180,157,344,184"/>
-<area shape="rect" id="node3" href="$classRadarScreen.html#a867e0ea87c7b45caa46193f3b16193dc" title=" " alt="" coords="409,5,577,32"/>
-<area shape="rect" id="node5" href="$classradarDisplay.html#a33aa8a96acabfc80b5a1d560850c056e" title=" " alt="" coords="397,56,588,83"/>
-<area shape="rect" id="node6" href="$classRadarScreen.html#a710339edc91b0cf8b28cc83edb809e86" title=" " alt="" coords="636,56,815,83"/>
-<area shape="rect" id="node7" href="$classicon.html#af86bb9d600683df4961d0d767bc75797" title="Show the id of the icon." alt="" coords="863,5,964,32"/>
-<area shape="rect" id="node8" href="$classpixel.html#a448bceb0c69be0a1e73032bb5ea33998" title="Show the x coordinate of the pixel." alt="" coords="871,56,955,83"/>
-<area shape="rect" id="node9" href="$classpixel.html#ac4045564802fba246c56cc46d36be6af" title="Show the y coordinate of the pixel." alt="" coords="871,107,955,133"/>
+<area shape="rect" id="node1" title="run the radar display" alt="" coords="5,107,127,134"/>
+<area shape="rect" id="node2" href="$classradarDisplay.html#a8c0c6e9e4042046863feee28ad1e7013" title="handle the events" alt="" coords="200,5,328,47"/>
+<area shape="rect" id="node4" href="$classradarDisplay.html#aa7f219ae00d5925daa65efb9db8488ef" title="handle the starting conditions" alt="" coords="190,71,338,112"/>
+<area shape="rect" id="node10" href="$classRadar__Screen.html#a0ffd8f5f239a021186ecffa94938713e" title=" " alt="" coords="185,137,343,163"/>
+<area shape="rect" id="node11" href="$classAir__Space.html#a6ee6bc3a22b2c03a63056739bc9a0015" title=" " alt="" coords="175,187,353,214"/>
+<area shape="rect" id="node3" href="$classRadar__Screen.html#abedfdbf512c8f9aadc53b3adbcf859d6" title=" " alt="" coords="401,13,584,39"/>
+<area shape="rect" id="node5" href="$classradarDisplay.html#ae71a9025e7f4eb96ee78af037ca7f4e6" title="Display all aircraft in the airspace on the radar display window." alt="" coords="422,71,563,112"/>
+<area shape="rect" id="node6" href="$classRadar__Screen.html#a91ac2dacbb350e48d8ed6b77e4656304" title=" " alt="" coords="632,71,776,112"/>
+<area shape="rect" id="node7" href="$classicon.html#aa38bb16c35b3eeb529fd25c867a33df7" title="Show the id of the icon." alt="" coords="824,27,932,54"/>
+<area shape="rect" id="node8" href="$classpixel.html#af66db649310d392c01f251430aaa1017" title="Show the x coordinate of the pixel." alt="" coords="833,78,923,105"/>
+<area shape="rect" id="node9" href="$classpixel.html#aced225f6094bb04db0f6bafcf3385d3d" title="Show the y coordinate of the pixel." alt="" coords="833,129,923,155"/>
 </map>

@@ -1,6 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structAircraft.html" title=" " alt="" coords="5,56,69,83"/>
-<area shape="rect" id="node2" href="$structHeli__s.html" title=" " alt="" coords="123,5,181,32"/>
-<area shape="rect" id="node3" href="$structJet__s.html" title=" " alt="" coords="125,56,179,83"/>
-<area shape="rect" id="node4" href="$structPlane__s.html" title=" " alt="" coords="117,107,187,133"/>
+<area shape="rect" id="node1" href="$classAir__Space.html" title=" " alt="" coords="5,5,88,32"/>
 </map>

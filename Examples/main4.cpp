@@ -31,7 +31,7 @@ int main()
     icon myIcon;             // Create an icon object
     pixel pixelOne(1, 2, 3); // Create a pixel object with the specified input data: x and y coordinates to 1 and 2 and its brightness to 3.
 
-    if (myIcon.setPixel(0, pixelOne) != STATUS_OK) // If the pixel is not set successfully
+    if (myIcon.set_Pixel(0, pixelOne) != STATUS_OK) // If the pixel is not set successfully
     {
         std::cout << "Error: Pixel not set successfully" << std::endl; // Print an error message
     }

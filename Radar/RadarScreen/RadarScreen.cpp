@@ -1,6 +1,6 @@
 #include "RadarScreen.h"
 
-RadarScreen::RadarScreen()
+Radar_Screen::Radar_Screen()
 {
     display_ = XOpenDisplay(NULL);
     if (display_ == NULL)
@@ -17,33 +17,33 @@ RadarScreen::RadarScreen()
     XMapWindow(display_, window_);
 }
 
-RadarScreen::~RadarScreen()
+Radar_Screen::~Radar_Screen()
 {
     XCloseDisplay(display_);
 }
 
-Display *RadarScreen::getDisplay() const
+Display *Radar_Screen::get_Display() const
 {
     return display_;
 }
 
-void RadarScreen::drawRect(unsigned long col, int x, int y, int width, int height) const
+void Radar_Screen::draw_Rect(unsigned long col, int x, int y, int width, int height) const
 {
     XSetForeground(display_, DefaultGC(display_, screen_), col);
     XFillRectangle(display_, window_, DefaultGC(display_, screen_), x, y, width, height);
     XFillRectangle(display_, window_, DefaultGC(display_, screen_), x + 5, y + 5, width, height);
 }
 
-void RadarScreen::DrawAircraft(const Aircraft &obj)
+void Radar_Screen::Draw_Aircraft(const Aircraft &obj)
 {
     XSetForeground(display_, DefaultGC(display_, screen_), obj.color);
     for (int i = 0; i < 16; i++)
     {
-        XFillRectangle(display_, window_, DefaultGC(display_, screen_), obj.position.x + (obj.icon_.getPixel(i).getX() * obj.size.width), obj.position.y + (obj.icon_.getPixel(i).getY() * obj.size.height), obj.size.width, obj.size.height);
+        XFillRectangle(display_, window_, DefaultGC(display_, screen_), obj.position.x + (obj.icon_.get_Pixel(i).get_X() * obj.size.width), obj.position.y + (obj.icon_.get_Pixel(i).get_Y() * obj.size.height), obj.size.width, obj.size.height);
     }
 }
 
-void RadarScreen::redraw()
+void Radar_Screen::re_draw()
 {
     XClearWindow(display_, window_);
 

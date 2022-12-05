@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['update_267',['update',['../classradarDisplay.html#a38c2d3e176207bab6405ac066a098e33',1,'radarDisplay']]],
-  ['updateghosts_268',['updateGhosts',['../classAirSpace.html#a2175a9c9e93c1907563460f7a50d7914',1,'AirSpace']]],
-  ['updateicon_269',['updateIcon',['../classicon.html#a4b91df1dbf2ddf951d3c8955b3b543b0',1,'icon']]]
+  ['update_5faircraft_266',['update_Aircraft',['../classAir__Space.html#a6ee6bc3a22b2c03a63056739bc9a0015',1,'Air_Space']]],
+  ['update_5ficon_267',['update_Icon',['../classicon.html#aa45d2f89f0aef3a79c08789c471df495',1,'icon']]]
 ];

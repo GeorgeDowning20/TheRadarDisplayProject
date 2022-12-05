@@ -56,17 +56,17 @@ public:
     /// @brief Show the id of the icon
     /// @param pixelId The id of the icon
     /// @return The pixel at the specified index
-    pixel getPixel(uint8_t pixelId) const;
+    pixel get_Pixel(uint8_t pixelId) const;
 
     /// @brief Show the id of the icon
     /// @return The id of the icon
-    uint8_t getId();
+    uint8_t get_Id();
 
     /// @brief Set specific pixel in icon
     /// @param pixelId The id of the pixel to be changed
     /// @param pixel reference to the pixel to be set
     /// @return Status of the operation #status_e
-    enum status_e setPixel(uint8_t pixelId, pixel const &pixel);
+    enum status_e set_Pixel(uint8_t pixelId, pixel const &pixel);
 
     /// @brief set specific pixel in icon with out an existing pixel object
     /// @param pixelId The id of the pixel to be changed
@@ -74,18 +74,18 @@ public:
     /// @param y The y coordinate of the pixel
     /// @param Brightness The brightness of the pixel
     /// @return Status of the operation #status_e
-    enum status_e setPixel(uint8_t pixelId, float x, float y, uint8_t Brightness);
+    enum status_e set_Pixel(uint8_t pixelId, float x, float y, uint8_t Brightness);
 
     /// @brief Set the id and pixel array of the icon
     /// @param __Id The id of the icon
     /// @param __The_Pixels Address of the array of pixels that make up the icon
     /// @return Status of the operation #status_e
-    enum status_e setIcon(uint8_t __Id, pixel __The_Pixels[]);
+    enum status_e set_Icon(uint8_t __Id, pixel __The_Pixels[]);
 
     /// @brief change the look of the icon
     /// @param __The_Pixels Address of the array of pixels that the icon will be changed to
     /// @return Status of the operation #status_e
-    enum status_e updateIcon(pixel __The_Pixels[]);
+    enum status_e update_Icon(pixel __The_Pixels[]);
 
     /// @brief function to initialise an icon as a diagonal line with a specified brightness
     /// @param Brightness The brightness of the line
@@ -95,12 +95,12 @@ public:
     /// @brief function to display the details of the icon in the console
     /// @param icon The icon to be displayed
     /// @return Status of the operation #status_e
-    static enum status_e showDetails(icon const &icon);
+    static enum status_e show_Details(icon const &icon);
 
     /// @brief function to display the details of the icon in the console
     /// @param icon The icon to be displayed
     /// @return Status of the operation #status_e
-    enum status_e showDetails();
+    enum status_e show_Details();
 
     /// @brief function to display the details of the icon in the console
     /// @param icon The icon to be displayed

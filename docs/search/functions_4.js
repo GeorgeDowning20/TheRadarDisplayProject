@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['drawaircraft_230',['DrawAircraft',['../classRadarScreen.html#a710339edc91b0cf8b28cc83edb809e86',1,'RadarScreen']]],
-  ['drawallaircraft_231',['DrawAllAircraft',['../classradarDisplay.html#a33aa8a96acabfc80b5a1d560850c056e',1,'radarDisplay']]],
-  ['drawrect_232',['drawRect',['../classRadarScreen.html#a5efeae6f788e900d21ad50ae14e3b3ff',1,'RadarScreen']]]
+  ['draw_5faircraft_232',['Draw_Aircraft',['../classRadar__Screen.html#a91ac2dacbb350e48d8ed6b77e4656304',1,'Radar_Screen']]],
+  ['draw_5frect_233',['draw_Rect',['../classRadar__Screen.html#a2ca704d5092ae01356a7a5508138698a',1,'Radar_Screen']]]
 ];

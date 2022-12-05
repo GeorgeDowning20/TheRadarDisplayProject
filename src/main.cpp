@@ -26,10 +26,10 @@
 /// @author G.Downing
 int main()
 {
-    AirSpace DAVENTRY_CTA(5, 6, 7); // Create an instance of airspace in this case it represents the airspace of the Daventry CTA (Controlled Airspace) over the midlands in the UK
-    AirSpace LTMA(5, 6, 7);         // Create an instance of airspace in this case it represents the airspace of the London Terminal Manoeuvring Area (Controlled Airspace) London in the UK
+    Air_Space DAVENTRY_CTA(5, 6, 7); // Create an instance of airspace in this case it represents the airspace of the Daventry CTA (Controlled Airspace) over the midlands in the UK
+    Air_Space LTMA(5, 6, 7);         // Create an instance of airspace in this case it represents the airspace of the London Terminal Manoeuvring Area (Controlled Airspace) London in the UK
 
-    radarDisplay East_Midlands_Tower(DAVENTRY_CTA); // Create a radar instance for the East Midlands tower which is located below Daventry CTA
+    radarDisplay East_Midlands_Tower(DAVENTRY_CTA); // Create a radar display for the East Midlands tower which is located below Daventry CTA
     radarDisplay Birmingham_Approach(DAVENTRY_CTA); // Create a radar display for Birmingham Approach which is located in the same airspace as East Midlands Tower
     radarDisplay Luton_Radar(LTMA);                 // Create a radar display for Luton Radar which is located below the London Terminal Manoeuvring Area
 

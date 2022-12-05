@@ -1,4 +1,4 @@
-// Helicopter Icon Design:
+/// @brief Helicopter Icon Design:
 static pixel HeliIcon[16] = {
     pixel(0, 0, 20),
     pixel(6, 0, 20),

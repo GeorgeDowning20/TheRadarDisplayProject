@@ -1,0 +1,6 @@
+<map id="Radar_Screen::Draw_Aircraft" name="Radar_Screen::Draw_Aircraft">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,149,90"/>
+<area shape="rect" id="node2" href="$classicon.html#aa38bb16c35b3eeb529fd25c867a33df7" title="Show the id of the icon." alt="" coords="197,5,305,32"/>
+<area shape="rect" id="node3" href="$classpixel.html#af66db649310d392c01f251430aaa1017" title="Show the x coordinate of the pixel." alt="" coords="206,56,297,83"/>
+<area shape="rect" id="node4" href="$classpixel.html#aced225f6094bb04db0f6bafcf3385d3d" title="Show the y coordinate of the pixel." alt="" coords="206,107,297,133"/>
+</map>

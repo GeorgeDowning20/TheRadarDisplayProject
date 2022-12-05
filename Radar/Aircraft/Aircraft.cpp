@@ -7,7 +7,7 @@ Rect Aircraft::bounds() const
 
 Jet_s::Jet_s() : Aircraft(0x3368ff, {100, 100}, {3, 3})
 {
-    icon_.setIcon(1, JetIcon);
+    icon_.set_Icon(1, JetIcon);
     time_at_last_move_ns_ = time_.time();
 };
 
@@ -35,14 +35,14 @@ void Jet_s::move()
     time_at_last_move_ns_ = time_.time();
 }
 
-bool Jet_s::isTimeToMove()
+bool Jet_s::is_Time_To_Move()
 {
     return ((time_.time() - time_at_last_move_ns_) >= move_time_ns_);
 }
 
 Heli_s::Heli_s() : Aircraft(0xff0000, {100, 100}, {3, 3})
 {
-    icon_.setIcon(1, HeliIcon);
+    icon_.set_Icon(1, HeliIcon);
     time_at_last_move_ns_ = time_.time();
 };
 
@@ -70,14 +70,14 @@ void Heli_s::move()
     time_at_last_move_ns_ = time_.time();
 }
 
-bool Heli_s::isTimeToMove()
+bool Heli_s::is_Time_To_Move()
 {
     return ((time_.time() - time_at_last_move_ns_) >= move_time_ns_);
 }
 
 Plane_s::Plane_s() : Aircraft(0x33ff4c, {100, 100}, {4, 4})
 {
-    icon_.setIcon(1, PlaneIcon);
+    icon_.set_Icon(1, PlaneIcon);
     time_at_last_move_ns_ = time_.time();
 };
 
@@ -105,7 +105,7 @@ void Plane_s::move()
     time_at_last_move_ns_ = time_.time();
 }
 
-bool Plane_s::isTimeToMove()
+bool Plane_s::is_Time_To_Move()
 {
     return ((time_.time() - time_at_last_move_ns_) >= move_time_ns_);
 }
