@@ -6,6 +6,8 @@
 /// @copyright (c) 2022 G. Downing
 /// @details This file contains a main function to test the third subtask of the project. the main functions creates an instance of a pixel with the specified input data. the characteristics of the pixel are then printed to the console using the #showPixelDetail(aPixel) function.
 /// @details Doxygen Documentation for project: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
+/// @par Code:
+/// @include main3.cpp
 //---------------------------------------------------------------------------//
 
 //---------------------------------------------------------------------------//

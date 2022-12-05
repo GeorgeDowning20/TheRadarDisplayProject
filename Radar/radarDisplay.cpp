@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------//
-/// @file radarDisplay.h
+/// @file radarDisplay.cpp
 /// @brief This file contains the radarDisplay class Definition
 /// @author G.Downing
 /// @date 2020-11-24
