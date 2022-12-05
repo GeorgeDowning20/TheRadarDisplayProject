@@ -1,6 +1,6 @@
 <map id="Heli_s" name="Heli_s">
-<area shape="rect" id="node1" title=" " alt="" coords="115,273,173,300"/>
-<area shape="rect" id="node2" href="$structAircraft.html" title=" " alt="" coords="69,184,133,211"/>
+<area shape="rect" id="node1" title="Heli structure." alt="" coords="115,273,173,300"/>
+<area shape="rect" id="node2" href="$structAircraft.html" title="Aircraft structure." alt="" coords="69,184,133,211"/>
 <area shape="rect" id="node3" href="$structSize.html" title="structure to encapsulate window" alt="" coords="5,95,53,121"/>
 <area shape="rect" id="node4" href="$classicon.html" title="This class represents an icon." alt="" coords="78,95,125,121"/>
 <area shape="rect" id="node5" href="$classpixel.html" title="This class represents a single pixel." alt="" coords="77,5,126,32"/>

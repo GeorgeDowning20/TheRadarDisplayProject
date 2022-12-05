@@ -1,9 +1,9 @@
 <map id="_Time::time" name="_Time::time">
 <area shape="rect" id="node1" title="interface with the time library to get the current time" alt="" coords="236,132,327,159"/>
-<area shape="rect" id="node2" href="$structJet__s.html#ae62c7bbe1c3216a00bb9694b163fcc79" title=" " alt="" coords="13,5,181,32"/>
-<area shape="rect" id="node3" href="$structHeli__s.html#a110ef2fc70346676e9c010da35dca3db" title=" " alt="" coords="10,56,183,83"/>
-<area shape="rect" id="node4" href="$structPlane__s.html#aa7c53558462d297db9eb4f883e133bfb" title=" " alt="" coords="5,107,188,133"/>
-<area shape="rect" id="node5" href="$structJet__s.html#a159e49189c6a197859f73e7c999bfce7" title=" " alt="" coords="49,157,144,184"/>
-<area shape="rect" id="node6" href="$structHeli__s.html#ae895031f207c86065b600d245b2e216f" title=" " alt="" coords="47,208,146,235"/>
-<area shape="rect" id="node7" href="$structPlane__s.html#a91592005fe3655bea8a15dde62f889cf" title=" " alt="" coords="42,259,151,285"/>
+<area shape="rect" id="node2" href="$structJet__s.html#ae62c7bbe1c3216a00bb9694b163fcc79" title="define condition for updating the jet" alt="" coords="13,5,181,32"/>
+<area shape="rect" id="node3" href="$structHeli__s.html#a110ef2fc70346676e9c010da35dca3db" title="define condition for updating the heli" alt="" coords="10,56,183,83"/>
+<area shape="rect" id="node4" href="$structPlane__s.html#aa7c53558462d297db9eb4f883e133bfb" title="define condition for updating the plane" alt="" coords="5,107,188,133"/>
+<area shape="rect" id="node5" href="$structJet__s.html#a159e49189c6a197859f73e7c999bfce7" title="define movement characteristics for the jet" alt="" coords="49,157,144,184"/>
+<area shape="rect" id="node6" href="$structHeli__s.html#ae895031f207c86065b600d245b2e216f" title="define movement characteristics for the heli" alt="" coords="47,208,146,235"/>
+<area shape="rect" id="node7" href="$structPlane__s.html#a91592005fe3655bea8a15dde62f889cf" title="define movement characteristics for the plane" alt="" coords="42,259,151,285"/>
 </map>

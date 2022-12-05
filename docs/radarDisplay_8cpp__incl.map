@@ -5,7 +5,7 @@
 <area shape="rect" id="node4" title=" " alt="" coords="488,229,547,256"/>
 <area shape="rect" id="node5" href="$Airspace_8h.html" title="This file contains the Airspace class Deceleration." alt="" coords="325,155,464,181"/>
 <area shape="rect" id="node19" href="$RadarScreen_8h.html" title=" " alt="" coords="108,155,297,181"/>
-<area shape="rect" id="node6" href="$Aircraft_8h.html" title=" " alt="" coords="331,229,464,256"/>
+<area shape="rect" id="node6" href="$Aircraft_8h.html" title="This file contains the Airspace struct Deceleration." alt="" coords="331,229,464,256"/>
 <area shape="rect" id="node13" title=" " alt="" coords="285,453,357,480"/>
 <area shape="rect" id="node7" href="$def_8h.html" title="This file contains a set of definitions that are used throughout the project." alt="" coords="847,379,910,405"/>
 <area shape="rect" id="node9" href="$Time_8h.html" title="This file contains the Time class." alt="" coords="736,304,843,331"/>

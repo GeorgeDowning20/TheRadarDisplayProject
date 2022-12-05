@@ -1,7 +1,7 @@
 <map id="Radar/Airspace/Airspace.cpp" name="Radar/Airspace/Airspace.cpp">
 <area shape="rect" id="node1" title="This file contains the Airspace class Definitions." alt="" coords="252,5,444,32"/>
 <area shape="rect" id="node2" href="$Airspace_8h.html" title="This file contains the Airspace class Deceleration." alt="" coords="306,80,390,107"/>
-<area shape="rect" id="node3" href="$Aircraft_8h.html" title=" " alt="" coords="281,155,415,181"/>
+<area shape="rect" id="node3" href="$Aircraft_8h.html" title="This file contains the Airspace struct Deceleration." alt="" coords="281,155,415,181"/>
 <area shape="rect" id="node10" title=" " alt="" coords="5,379,77,405"/>
 <area shape="rect" id="node16" title=" " alt="" coords="439,155,497,181"/>
 <area shape="rect" id="node4" href="$def_8h.html" title="This file contains a set of definitions that are used throughout the project." alt="" coords="537,304,599,331"/>
