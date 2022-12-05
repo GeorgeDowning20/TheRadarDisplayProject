@@ -11,10 +11,10 @@ find_package(X11)
 add_executable(Radar 	src/main.cpp 
 						Radar/Aircraft/Aircraft.cpp
 						Radar/Airspace/Airspace.cpp
-						Radar/RadarDisplay/RadarDisplay.cpp
+						Radar/RadarScreen/RadarScreen.cpp
 						Radar/Pixel/Pixel.cpp
 						Radar/Icon/Icon.cpp
-						Radar/Radar.cpp
+						Radar/radarDisplay.cpp
 						 )
 
 

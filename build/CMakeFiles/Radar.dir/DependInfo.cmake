@@ -12,8 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.cpp" "CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o.d"
   "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.cpp" "CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o.d"
   "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Pixel/Pixel.cpp" "CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o.d"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp" "CMakeFiles/Radar.dir/Radar/Radar.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/Radar.cpp.o.d"
-  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.cpp" "CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarScreen/RadarScreen.cpp" "CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o.d"
+  "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/radarDisplay.cpp" "CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o" "gcc" "CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o.d"
   "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/src/main.cpp" "CMakeFiles/Radar.dir/src/main.cpp.o" "gcc" "CMakeFiles/Radar.dir/src/main.cpp.o.d"
   )
 

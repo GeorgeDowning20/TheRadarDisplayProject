@@ -1,12 +1,12 @@
-#include "Radar.h"
+#include "radarDisplay.h"
 
-Radar::Radar(AirSpace &air_space)
+radarDisplay::radarDisplay(AirSpace &air_space)
 {
     airspace_ = &air_space;
     std::srand(std::time(nullptr));
 }
 
-void Radar::run()
+void radarDisplay::run()
 {
     airspace_->updateGhosts();
 
@@ -24,7 +24,7 @@ void Radar::run()
     }
 }
 
-bool Radar::getEvent()
+bool radarDisplay::getEvent()
 {
     if (XPending(RadarDisplay_.getDisplay()))
     {
@@ -36,7 +36,7 @@ bool Radar::getEvent()
     return false;
 }
 
-void Radar::drawAllGhosts()
+void radarDisplay::DrawAllAircraft()
 {
     for (auto &g : airspace_->Jet)
     {
@@ -54,10 +54,10 @@ void Radar::drawAllGhosts()
     }
 }
 
-void Radar::handleEvent()
+void radarDisplay::handleEvent()
 {
     if (event_.type == Expose)
     {
-        drawAllGhosts();
+        DrawAllAircraft();
     }
 }

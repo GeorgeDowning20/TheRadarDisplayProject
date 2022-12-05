@@ -81,6 +81,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad888d0c4abe19bdf754c21ac01c350d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpixel.html#ad888d0c4abe19bdf754c21ac01c350d4">pixel</a> ()</td></tr>
 <tr class="memdesc:ad888d0c4abe19bdf754c21ac01c350d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for pixel.  <a href="classpixel.html#ad888d0c4abe19bdf754c21ac01c350d4">More...</a><br /></td></tr>
 <tr class="separator:ad888d0c4abe19bdf754c21ac01c350d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2896f61987431e12ae5bba1cd092e98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpixel.html#ac2896f61987431e12ae5bba1cd092e98">~pixel</a> ()</td></tr>
+<tr class="memdesc:ac2896f61987431e12ae5bba1cd092e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default deconstructor for pixel.  <a href="classpixel.html#ac2896f61987431e12ae5bba1cd092e98">More...</a><br /></td></tr>
+<tr class="separator:ac2896f61987431e12ae5bba1cd092e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ef0955996258816670a3a086d8ca214"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpixel.html#a2ef0955996258816670a3a086d8ca214">pixel</a> (float <a class="el" href="classpixel.html#a0fd8cbfaee35453c73320bb24852d664">x</a>, float <a class="el" href="classpixel.html#a669b15905ef008eb228e6f2b8c6e4d5e">y</a>, uint8_t <a class="el" href="classpixel.html#a6f7732f468c2ace19a5e6eb288662293">Brightness</a>)</td></tr>
 <tr class="memdesc:a2ef0955996258816670a3a086d8ca214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for pixel with x, y and Brightness.  <a href="classpixel.html#a2ef0955996258816670a3a086d8ca214">More...</a><br /></td></tr>
 <tr class="separator:a2ef0955996258816670a3a086d8ca214"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,6 +181,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac2896f61987431e12ae5bba1cd092e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2896f61987431e12ae5bba1cd092e98">&#9670;&nbsp;</a></span>~pixel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">pixel::~pixel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default deconstructor for pixel. </p>
+<p>This is the default deconstructor for the pixel class. </p>
+
+</div>
+</div>
 <a id="a2ef0955996258816670a3a086d8ca214"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ef0955996258816670a3a086d8ca214">&#9670;&nbsp;</a></span>pixel() <span class="overload">[2/3]</span></h2>
 
@@ -219,16 +250,28 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>This is the default constructor for the pixel class. It sets the x and y coordinates to the values passed in and the brightness to the value passed in. </p><dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;../Radar/Pixel/Pixel.cpp&quot;</span> <span class="comment">// Pixel.cpp</span></div>
+<p>This is the default constructor for the pixel class. It sets the x and y coordinates to the values passed in and the brightness to the value passed in. </p><dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment"></span><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                        preprocessor directives</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &quot;../Radar/Pixel/Pixel.cpp&quot;</span> <span class="comment">// Pixel.cpp</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                           Main Program</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code" href="3_816_83_2CompilerIdC_2CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <a class="code" href="classpixel.html">pixel</a> aPixel(3.7, 4.1, 7);</div>
+<div class="line">    <a class="code" href="classpixel.html">pixel</a> aPixel(3.7, 4.1, 7); <span class="comment">// Create a pixel object with the specified input data: x and y coordinates to 3.9 and 4.1 and its brightness to 7.</span></div>
 <div class="line"> </div>
-<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Pixel at (&quot;</span> &lt;&lt; aPixel.getX()</div>
-<div class="line">              &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; aPixel.getY()</div>
-<div class="line">              &lt;&lt; <span class="stringliteral">&quot;) has a brightness of &quot;</span> &lt;&lt; unsigned(aPixel.getBrightness())</div>
-<div class="line">              &lt;&lt; <span class="stringliteral">&quot; \n &quot;</span> &lt;&lt; std::endl;</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Pixel at (&quot;</span> &lt;&lt; aPixel.getX()                                <span class="comment">// Print the x coordinate of the pixel</span></div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; aPixel.getY()                                        <span class="comment">// Print the y coordinate of the pixel</span></div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot;) has a brightness of &quot;</span> &lt;&lt; unsigned(aPixel.getBrightness()) <span class="comment">// Print the brightness of the pixel</span></div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot; \n &quot;</span> &lt;&lt; std::endl;                                         <span class="comment">// Print a new line</span></div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 </div><!-- fragment --> </dd></dl>
 
@@ -297,7 +340,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classpixel_a5be2467fd199bdeac8bb38cea53cf0b0_icgraph.png" border="0" usemap="#aclasspixel_a5be2467fd199bdeac8bb38cea53cf0b0_icgraph" alt=""/></div>
 <map name="aclasspixel_a5be2467fd199bdeac8bb38cea53cf0b0_icgraph" id="aclasspixel_a5be2467fd199bdeac8bb38cea53cf0b0_icgraph">
 <area shape="rect" title="Show the brightness of the pixel." alt="" coords="104,5,241,32"/>
-<area shape="rect" href="main2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="main2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="5,5,56,32"/>
 </map>
 </div>
 
@@ -326,12 +369,12 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classpixel_a448bceb0c69be0a1e73032bb5ea33998_icgraph.png" border="0" usemap="#aclasspixel_a448bceb0c69be0a1e73032bb5ea33998_icgraph" alt=""/></div>
 <map name="aclasspixel_a448bceb0c69be0a1e73032bb5ea33998_icgraph" id="aclasspixel_a448bceb0c69be0a1e73032bb5ea33998_icgraph">
-<area shape="rect" title="Show the x coordinate of the pixel." alt="" coords="849,31,933,57"/>
-<area shape="rect" href="classRadarDisplay.html#aaf1ae0d2de3fbf40abcc8d669e73d928" title=" " alt="" coords="619,5,801,32"/>
-<area shape="rect" href="main2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="685,56,735,83"/>
-<area shape="rect" href="classRadar.html#ab8eb29c7e075fee3b8de9c724cdf2d86" title=" " alt="" coords="420,5,571,32"/>
-<area shape="rect" href="classRadar.html#a17e8ccd4133e8937ce91e4c788d065da" title=" " alt="" coords="235,5,372,32"/>
-<area shape="rect" href="classRadar.html#a580a24be527b2b97c9f3aec94ce31ead" title=" " alt="" coords="104,5,187,32"/>
+<area shape="rect" title="Show the x coordinate of the pixel." alt="" coords="961,31,1045,57"/>
+<area shape="rect" href="classRadarScreen.html#a710339edc91b0cf8b28cc83edb809e86" title=" " alt="" coords="735,5,913,32"/>
+<area shape="rect" href="main2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="799,56,849,83"/>
+<area shape="rect" href="classradarDisplay.html#a33aa8a96acabfc80b5a1d560850c056e" title=" " alt="" coords="496,5,687,32"/>
+<area shape="rect" href="classradarDisplay.html#a95f42e385d855abd2715e1cb91abd2db" title=" " alt="" coords="273,5,448,32"/>
+<area shape="rect" href="classradarDisplay.html#a90ddc74e28f72f99fa8a59f00ae72d77" title=" " alt="" coords="104,5,225,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="5,5,56,32"/>
 </map>
 </div>
@@ -361,12 +404,12 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classpixel_ac4045564802fba246c56cc46d36be6af_icgraph.png" border="0" usemap="#aclasspixel_ac4045564802fba246c56cc46d36be6af_icgraph" alt=""/></div>
 <map name="aclasspixel_ac4045564802fba246c56cc46d36be6af_icgraph" id="aclasspixel_ac4045564802fba246c56cc46d36be6af_icgraph">
-<area shape="rect" title="Show the y coordinate of the pixel." alt="" coords="849,31,933,57"/>
-<area shape="rect" href="classRadarDisplay.html#aaf1ae0d2de3fbf40abcc8d669e73d928" title=" " alt="" coords="619,5,801,32"/>
-<area shape="rect" href="main2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="685,56,735,83"/>
-<area shape="rect" href="classRadar.html#ab8eb29c7e075fee3b8de9c724cdf2d86" title=" " alt="" coords="420,5,571,32"/>
-<area shape="rect" href="classRadar.html#a17e8ccd4133e8937ce91e4c788d065da" title=" " alt="" coords="235,5,372,32"/>
-<area shape="rect" href="classRadar.html#a580a24be527b2b97c9f3aec94ce31ead" title=" " alt="" coords="104,5,187,32"/>
+<area shape="rect" title="Show the y coordinate of the pixel." alt="" coords="961,31,1045,57"/>
+<area shape="rect" href="classRadarScreen.html#a710339edc91b0cf8b28cc83edb809e86" title=" " alt="" coords="735,5,913,32"/>
+<area shape="rect" href="main2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="799,56,849,83"/>
+<area shape="rect" href="classradarDisplay.html#a33aa8a96acabfc80b5a1d560850c056e" title=" " alt="" coords="496,5,687,32"/>
+<area shape="rect" href="classradarDisplay.html#a95f42e385d855abd2715e1cb91abd2db" title=" " alt="" coords="273,5,448,32"/>
+<area shape="rect" href="classradarDisplay.html#a90ddc74e28f72f99fa8a59f00ae72d77" title=" " alt="" coords="104,5,225,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="5,5,56,32"/>
 </map>
 </div>
@@ -537,7 +580,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classpixel_a8d7cb9e2961eba68009f864ecebe61a2_icgraph.png" border="0" usemap="#aclasspixel_a8d7cb9e2961eba68009f864ecebe61a2_icgraph" alt=""/></div>
 <map name="aclasspixel_a8d7cb9e2961eba68009f864ecebe61a2_icgraph" id="aclasspixel_a8d7cb9e2961eba68009f864ecebe61a2_icgraph">
 <area shape="rect" title="Show the details of the pixel." alt="" coords="104,5,255,32"/>
-<area shape="rect" href="main3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="main3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main program" alt="" coords="5,5,56,32"/>
 </map>
 </div>
 
@@ -576,20 +619,30 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>STATUS_OK</dd></dl>
 <p>This function returns the x , y coordinates and brightness of the pixel. It is used for debugging purposes. </p><dl class="section note"><dt>Note</dt><dd>Static declaration is used to indicate that this function is not associated with a specific instance of the class. </dd></dl>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;../Radar/Pixel/Pixel.cpp&quot;</span> <span class="comment">// Pixel.cpp</span></div>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment"></span><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                        preprocessor directives</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &quot;../Radar/Pixel/Pixel.cpp&quot;</span> <span class="comment">// Pixel.cpp</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                           Main Program</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code" href="3_816_83_2CompilerIdC_2CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <a class="code" href="classpixel.html">pixel</a> aPixel(3.7, 4.1, 7);</div>
+<div class="line">    <a class="code" href="classpixel.html">pixel</a> aPixel(3.7, 4.1, 7); <span class="comment">// Create a pixel object with the specified input data: x and y coordinates to 3.9 and 4.1 and its brightness to 7.</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> (<a class="code" href="classpixel.html#a8d7cb9e2961eba68009f864ecebe61a2">pixel::showPixelDetail</a>(aPixel) != <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a>)</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code" href="classpixel.html#a8d7cb9e2961eba68009f864ecebe61a2">pixel::showPixelDetail</a>(aPixel) != <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a>) <span class="comment">// If the pixel detail is not shown successfully</span></div>
 <div class="line">    {</div>
-<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;Error showing details&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a5bde228d9506a863d51ffbc868ff67f7">STATUS_ERROR</a>;</div>
+<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;Error: Pixel detail not shown successfully&quot;</span> &lt;&lt; std::endl; <span class="comment">// Print an error message</span></div>
 <div class="line">    }</div>
+<div class="line">    <span class="keywordflow">return</span> 0; <span class="comment">// Return 0</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aclasspixel_html_a8d7cb9e2961eba68009f864ecebe61a2"><div class="ttname"><a href="classpixel.html#a8d7cb9e2961eba68009f864ecebe61a2">pixel::showPixelDetail</a></div><div class="ttdeci">enum status_e showPixelDetail()</div><div class="ttdoc">Show the details of the pixel.</div><div class="ttdef"><b>Definition:</b> Pixel.cpp:54</div></div>
-<div class="ttc" id="amain_8h_html_a6408ff47e3b54ebf0bf1e4c7640ff708a5bde228d9506a863d51ffbc868ff67f7"><div class="ttname"><a href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a5bde228d9506a863d51ffbc868ff67f7">STATUS_ERROR</a></div><div class="ttdeci">@ STATUS_ERROR</div><div class="ttdoc">The function did not complete successfully.</div><div class="ttdef"><b>Definition:</b> main.h:18</div></div>
+<div class="ttc" id="aclasspixel_html_a8d7cb9e2961eba68009f864ecebe61a2"><div class="ttname"><a href="classpixel.html#a8d7cb9e2961eba68009f864ecebe61a2">pixel::showPixelDetail</a></div><div class="ttdeci">enum status_e showPixelDetail()</div><div class="ttdoc">Show the details of the pixel.</div><div class="ttdef"><b>Definition:</b> Pixel.cpp:57</div></div>
 <div class="ttc" id="amain_8h_html_a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566"><div class="ttname"><a href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a></div><div class="ttdeci">@ STATUS_OK</div><div class="ttdoc">The function completed successfully.</div><div class="ttdef"><b>Definition:</b> main.h:17</div></div>
 </div><!-- fragment --> </dd></dl>
 

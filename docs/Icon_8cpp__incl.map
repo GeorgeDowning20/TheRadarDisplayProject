@@ -1,5 +1,5 @@
 <map id="Radar/Icon/Icon.cpp" name="Radar/Icon/Icon.cpp">
-<area shape="rect" id="node1" title="This file contains the definitions for the icon class." alt="" coords="102,5,242,32"/>
+<area shape="rect" id="node1" title="This file contains the declarations for the icon class." alt="" coords="102,5,242,32"/>
 <area shape="rect" id="node2" href="$Icon_8h.html" title="This file contains the class definition for the icon class." alt="" coords="143,80,201,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,229,67,256"/>
 <area shape="rect" id="node4" title=" " alt="" coords="91,229,163,256"/>

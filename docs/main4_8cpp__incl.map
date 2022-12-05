@@ -1,7 +1,7 @@
 <map id="Examples/main4.cpp" name="Examples/main4.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="125,5,269,32"/>
+<area shape="rect" id="node1" title="This file contains a main function to test the fourth and fifth subtasks of the project." alt="" coords="125,5,269,32"/>
 <area shape="rect" id="node2" href="$Pixel_8cpp.html" title="This file contains the function for the class Pixel." alt="" coords="52,155,212,181"/>
-<area shape="rect" id="node8" href="$Icon_8cpp.html" title="This file contains the definitions for the icon class." alt="" coords="184,80,336,107"/>
+<area shape="rect" id="node8" href="$Icon_8cpp.html" title="This file contains the declarations for the icon class." alt="" coords="184,80,336,107"/>
 <area shape="rect" id="node3" href="$Pixel_8h.html" title="This file contains the class declaration for the pixel class." alt="" coords="153,229,215,256"/>
 <area shape="rect" id="node4" href="$main_8h.html" title="This file contains status enums for the program." alt="" coords="5,304,112,331"/>
 <area shape="rect" id="node5" title=" " alt="" coords="235,304,296,331"/>

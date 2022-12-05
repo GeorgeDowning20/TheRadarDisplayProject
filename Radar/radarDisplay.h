@@ -2,17 +2,17 @@
 #include <vector>
 
 #include "Airspace/Airspace.h"
-#include "RadarDisplay/RadarDisplay.h"
+#include "RadarScreen/RadarScreen.h"
 
-class Radar
+class radarDisplay
 {
 public:
-    Radar(AirSpace &air_space);
+    radarDisplay(AirSpace &air_space);
 
     void run();
 
 private:
-    RadarDisplay RadarDisplay_;
+    RadarScreen RadarDisplay_;
     XEvent event_;
     bool is_running_ = true;
     bool STOP = false;
@@ -21,6 +21,6 @@ private:
 
     bool getEvent();
     void handleEvent();
-    void drawAllGhosts();
+    void DrawAllAircraft();
     void update();
 };

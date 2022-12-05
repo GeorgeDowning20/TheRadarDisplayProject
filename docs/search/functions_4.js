@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['drawaircraft_225',['DrawAircraft',['../classRadarDisplay.html#aaf1ae0d2de3fbf40abcc8d669e73d928',1,'RadarDisplay']]],
-  ['drawallghosts_226',['drawAllGhosts',['../classRadar.html#ab8eb29c7e075fee3b8de9c724cdf2d86',1,'Radar']]],
-  ['drawrect_227',['drawRect',['../classRadarDisplay.html#a25e5d9f9378ee1d1c575005e6094291d',1,'RadarDisplay']]]
+  ['drawaircraft_233',['DrawAircraft',['../classRadarScreen.html#a710339edc91b0cf8b28cc83edb809e86',1,'RadarScreen']]],
+  ['drawallaircraft_234',['DrawAllAircraft',['../classradarDisplay.html#a33aa8a96acabfc80b5a1d560850c056e',1,'radarDisplay']]],
+  ['drawrect_235',['drawRect',['../classRadarScreen.html#a5efeae6f788e900d21ad50ae14e3b3ff',1,'RadarScreen']]]
 ];

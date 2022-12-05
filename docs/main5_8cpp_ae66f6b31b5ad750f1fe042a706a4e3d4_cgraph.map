@@ -1,5 +1,5 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title=" " alt="" coords="5,42,56,69"/>
-<area shape="rect" id="node2" href="$classicon.html#a221927b72787ba82f7cd414d8a9effc5" title=" " alt="" coords="104,5,263,47"/>
-<area shape="rect" id="node3" href="$classicon.html#ad3be7b825fa5e56ed6b77d48c4087712" title=" " alt="" coords="120,71,247,98"/>
+<area shape="rect" id="node2" href="$classicon.html#a221927b72787ba82f7cd414d8a9effc5" title="function to initialise an icon as a diagonal line with a specified brightness" alt="" coords="104,5,263,47"/>
+<area shape="rect" id="node3" href="$classicon.html#ad3be7b825fa5e56ed6b77d48c4087712" title="function to display the details of the icon in the console" alt="" coords="120,71,247,98"/>
 </map>

@@ -188,4 +188,4 @@ CMakeFiles/Radar.dir/Radar/Radar.cpp.o: \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/Radar/Airspace/../Aircraft/../Icon/Jet.inc \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/Radar/Airspace/../Aircraft/../Icon/Plane.inc \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/Radar/Airspace/../Aircraft/../Icon/Heli.inc \
- /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.h
+ /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/Radar/RadarScreen/RadarScreen.h

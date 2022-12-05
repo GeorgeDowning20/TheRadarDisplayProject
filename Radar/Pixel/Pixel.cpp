@@ -26,6 +26,9 @@ pixel::pixel()
     x = 0, y = 0, Brightness = 0;
 }; // Default constructor
 
+/// @details This is the default deconstructor for the pixel class.
+pixel::~pixel() = default;
+
 /// @details This is the default constructor for the pixel class. It sets the x and y coordinates to the values passed in and the brightness to the value passed in.
 /// @par Example:
 /// @include main2.cpp
@@ -44,7 +47,7 @@ enum status_e pixel::showPixelDetail(pixel const &pixel)
     std::cout << "Pixel at (" << pixel.x                                // Show the x coordinate
               << ", " << pixel.y                                        // Show the y coordinate
               << ") has a brightness of " << unsigned(pixel.Brightness) // Show the brightness
-              << " \n " << std::endl;                                   // End the line
+              << std::endl;                                             // End the line
 
     return STATUS_OK;
 }

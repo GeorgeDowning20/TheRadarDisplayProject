@@ -9,12 +9,12 @@
 /// @details Doxygen Documentation for project: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
 //---------------------------------------------------------------------------//
 
-#include "main.h"                 // main.h
-#include <iostream>               // std::cout
-#include <cstdint>                // uint8_t
-#include "../Radar/Pixel/Pixel.h" // Pixel.h
-#include "../Radar/Icon/Icon.h"   // Icon.h
-#include "../Radar/Radar.h"       // Display.h
+#include "main.h"                  // main.h
+#include <iostream>                // std::cout
+#include <cstdint>                 // uint8_t
+#include "../Radar/Pixel/Pixel.h"  // Pixel.h
+#include "../Radar/Icon/Icon.h"    // Icon.h
+#include "../Radar/radarDisplay.h" // Display.h
 //---------------------------------------------------------------------------//
 //                           Main Program
 //---------------------------------------------------------------------------//
@@ -26,18 +26,18 @@
 /// @author G.Downing
 int main()
 {
-    AirSpace DAVENTRY_CTA(5, 6, 7); // Create an instance of airspace
-    AirSpace LTMA(5, 6, 7);         // Create an instance of airspace
+    AirSpace DAVENTRY_CTA(5, 6, 7); // Create an instance of airspace in this case it represents the airspace of the Daventry CTA (Controlled Airspace) over the midlands in the UK
+    AirSpace LTMA(5, 6, 7);         // Create an instance of airspace in this case it represents the airspace of the London Terminal Manoeuvring Area (Controlled Airspace) London in the UK
 
-    Radar a(DAVENTRY_CTA); // Create a radar display
-    Radar b(DAVENTRY_CTA); // Create a radar display
-    Radar c(LTMA);         // Create a radar display
+    radarDisplay East_Midlands_Tower(DAVENTRY_CTA); // Create a radar instance for the East Midlands tower which is located below Daventry CTA
+    radarDisplay Birmingham_Approach(DAVENTRY_CTA); // Create a radar display for Birmingham Approach which is located in the same airspace as East Midlands Tower
+    radarDisplay Luton_Radar(LTMA);                 // Create a radar display for Luton Radar which is located below the London Terminal Manoeuvring Area
 
     while (1) // runtime
     {
-        a.run(); // Run the radar display
-        b.run(); // Run the radar display
-        c.run(); // Run the radar display
+        East_Midlands_Tower.run(); // Run the radar display
+        Birmingham_Approach.run(); // Run the radar display
+        Luton_Radar.run();         // Run the radar display
     }
     return 0; // Return 0
 }

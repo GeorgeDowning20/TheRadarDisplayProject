@@ -111,19 +111,19 @@ CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.s"
 	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Airspace/Airspace.cpp" -o CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.s
 
-CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o: CMakeFiles/Radar.dir/flags.make
-CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o: ../Radar/RadarDisplay/RadarDisplay.cpp
-CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o: CMakeFiles/Radar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o -MF CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o.d -o CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o -c "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.cpp"
+CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o: CMakeFiles/Radar.dir/flags.make
+CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o: ../Radar/RadarScreen/RadarScreen.cpp
+CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o: CMakeFiles/Radar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o -MF CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o.d -o CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o -c "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarScreen/RadarScreen.cpp"
 
-CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.cpp" > CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.i
+CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarScreen/RadarScreen.cpp" > CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.i
 
-CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarDisplay/RadarDisplay.cpp" -o CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.s
+CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/RadarScreen/RadarScreen.cpp" -o CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.s
 
 CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o: CMakeFiles/Radar.dir/flags.make
 CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o: ../Radar/Pixel/Pixel.cpp
@@ -153,29 +153,29 @@ CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.s"
 	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Icon/Icon.cpp" -o CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.s
 
-CMakeFiles/Radar.dir/Radar/Radar.cpp.o: CMakeFiles/Radar.dir/flags.make
-CMakeFiles/Radar.dir/Radar/Radar.cpp.o: ../Radar/Radar.cpp
-CMakeFiles/Radar.dir/Radar/Radar.cpp.o: CMakeFiles/Radar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Radar.dir/Radar/Radar.cpp.o"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Radar.dir/Radar/Radar.cpp.o -MF CMakeFiles/Radar.dir/Radar/Radar.cpp.o.d -o CMakeFiles/Radar.dir/Radar/Radar.cpp.o -c "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp"
+CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o: CMakeFiles/Radar.dir/flags.make
+CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o: ../Radar/radarDisplay.cpp
+CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o: CMakeFiles/Radar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o -MF CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o.d -o CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o -c "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/radarDisplay.cpp"
 
-CMakeFiles/Radar.dir/Radar/Radar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Radar.dir/Radar/Radar.cpp.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp" > CMakeFiles/Radar.dir/Radar/Radar.cpp.i
+CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/radarDisplay.cpp" > CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.i
 
-CMakeFiles/Radar.dir/Radar/Radar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Radar.dir/Radar/Radar.cpp.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/Radar.cpp" -o CMakeFiles/Radar.dir/Radar/Radar.cpp.s
+CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/g/Uni code/Design and Implementation of Engineering Software (EEEE2063 UNUK) /TheRadarDisplayProject/Radar/radarDisplay.cpp" -o CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.s
 
 # Object files for target Radar
 Radar_OBJECTS = \
 "CMakeFiles/Radar.dir/src/main.cpp.o" \
 "CMakeFiles/Radar.dir/Radar/Aircraft/Aircraft.cpp.o" \
 "CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o" \
-"CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o" \
+"CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o" \
 "CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o" \
 "CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o" \
-"CMakeFiles/Radar.dir/Radar/Radar.cpp.o"
+"CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o"
 
 # External object files for target Radar
 Radar_EXTERNAL_OBJECTS =
@@ -183,10 +183,10 @@ Radar_EXTERNAL_OBJECTS =
 Radar: CMakeFiles/Radar.dir/src/main.cpp.o
 Radar: CMakeFiles/Radar.dir/Radar/Aircraft/Aircraft.cpp.o
 Radar: CMakeFiles/Radar.dir/Radar/Airspace/Airspace.cpp.o
-Radar: CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o
+Radar: CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o
 Radar: CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.o
 Radar: CMakeFiles/Radar.dir/Radar/Icon/Icon.cpp.o
-Radar: CMakeFiles/Radar.dir/Radar/Radar.cpp.o
+Radar: CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o
 Radar: CMakeFiles/Radar.dir/build.make
 Radar: /usr/lib/x86_64-linux-gnu/libSM.so
 Radar: /usr/lib/x86_64-linux-gnu/libICE.so

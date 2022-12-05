@@ -175,7 +175,7 @@ CMakeFiles/Radar.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/Icon/Icon.h \
- /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/Radar.h \
+ /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/radarDisplay.h \
  /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/Airspace/Airspace.h \
@@ -188,4 +188,4 @@ CMakeFiles/Radar.dir/src/main.cpp.o: \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/Airspace/../Aircraft/../Icon/Jet.inc \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/Airspace/../Aircraft/../Icon/Plane.inc \
  /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/Airspace/../Aircraft/../Icon/Heli.inc \
- /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/RadarDisplay/RadarDisplay.h
+ /home/g/Uni\ code/Design\ and\ Implementation\ of\ Engineering\ Software\ (EEEE2063\ UNUK)\ /TheRadarDisplayProject/src/../Radar/RadarScreen/RadarScreen.h

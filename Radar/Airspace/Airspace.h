@@ -18,5 +18,5 @@ private:
     std::vector<Plane_s> Plane;
 
     bool update_flag_;
-    friend class Radar;
+    friend class radarDisplay;
 };

@@ -1,0 +1,8 @@
+<map id="radarDisplay::handleEvent" name="radarDisplay::handleEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,180,83"/>
+<area shape="rect" id="node2" href="$classradarDisplay.html#a33aa8a96acabfc80b5a1d560850c056e" title=" " alt="" coords="228,56,419,83"/>
+<area shape="rect" id="node3" href="$classRadarScreen.html#a710339edc91b0cf8b28cc83edb809e86" title=" " alt="" coords="467,56,645,83"/>
+<area shape="rect" id="node4" href="$classicon.html#af86bb9d600683df4961d0d767bc75797" title="Show the id of the icon." alt="" coords="693,5,795,32"/>
+<area shape="rect" id="node5" href="$classpixel.html#a448bceb0c69be0a1e73032bb5ea33998" title="Show the x coordinate of the pixel." alt="" coords="702,56,786,83"/>
+<area shape="rect" id="node6" href="$classpixel.html#ac4045564802fba246c56cc46d36be6af" title="Show the y coordinate of the pixel." alt="" coords="702,107,786,133"/>
+</map>

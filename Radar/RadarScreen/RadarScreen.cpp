@@ -1,6 +1,6 @@
-#include "RadarDisplay.h"
+#include "RadarScreen.h"
 
-RadarDisplay::RadarDisplay()
+RadarScreen::RadarScreen()
 {
     display_ = XOpenDisplay(NULL);
     if (display_ == NULL)
@@ -17,24 +17,24 @@ RadarDisplay::RadarDisplay()
     XMapWindow(display_, window_);
 }
 
-RadarDisplay::~RadarDisplay()
+RadarScreen::~RadarScreen()
 {
     XCloseDisplay(display_);
 }
 
-Display *RadarDisplay::getDisplay() const
+Display *RadarScreen::getDisplay() const
 {
     return display_;
 }
 
-void RadarDisplay::drawRect(unsigned long col, int x, int y, int width, int height) const
+void RadarScreen::drawRect(unsigned long col, int x, int y, int width, int height) const
 {
     XSetForeground(display_, DefaultGC(display_, screen_), col);
     XFillRectangle(display_, window_, DefaultGC(display_, screen_), x, y, width, height);
     XFillRectangle(display_, window_, DefaultGC(display_, screen_), x + 5, y + 5, width, height);
 }
 
-void RadarDisplay::DrawAircraft(const Aircraft &obj)
+void RadarScreen::DrawAircraft(const Aircraft &obj)
 {
     XSetForeground(display_, DefaultGC(display_, screen_), obj.color);
     for (int i = 0; i < 16; i++)
@@ -43,7 +43,7 @@ void RadarDisplay::DrawAircraft(const Aircraft &obj)
     }
 }
 
-void RadarDisplay::redraw()
+void RadarScreen::redraw()
 {
     XClearWindow(display_, window_);
 

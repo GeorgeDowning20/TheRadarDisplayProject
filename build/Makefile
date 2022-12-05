@@ -225,53 +225,53 @@ Radar/Pixel/Pixel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/Pixel/Pixel.cpp.s
 .PHONY : Radar/Pixel/Pixel.cpp.s
 
-Radar/Radar.o: Radar/Radar.cpp.o
-.PHONY : Radar/Radar.o
+Radar/RadarScreen/RadarScreen.o: Radar/RadarScreen/RadarScreen.cpp.o
+.PHONY : Radar/RadarScreen/RadarScreen.o
 
 # target to build an object file
-Radar/Radar.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/Radar.cpp.o
-.PHONY : Radar/Radar.cpp.o
+Radar/RadarScreen/RadarScreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.o
+.PHONY : Radar/RadarScreen/RadarScreen.cpp.o
 
-Radar/Radar.i: Radar/Radar.cpp.i
-.PHONY : Radar/Radar.i
+Radar/RadarScreen/RadarScreen.i: Radar/RadarScreen/RadarScreen.cpp.i
+.PHONY : Radar/RadarScreen/RadarScreen.i
 
 # target to preprocess a source file
-Radar/Radar.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/Radar.cpp.i
-.PHONY : Radar/Radar.cpp.i
+Radar/RadarScreen/RadarScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.i
+.PHONY : Radar/RadarScreen/RadarScreen.cpp.i
 
-Radar/Radar.s: Radar/Radar.cpp.s
-.PHONY : Radar/Radar.s
+Radar/RadarScreen/RadarScreen.s: Radar/RadarScreen/RadarScreen.cpp.s
+.PHONY : Radar/RadarScreen/RadarScreen.s
 
 # target to generate assembly for a file
-Radar/Radar.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/Radar.cpp.s
-.PHONY : Radar/Radar.cpp.s
+Radar/RadarScreen/RadarScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/RadarScreen/RadarScreen.cpp.s
+.PHONY : Radar/RadarScreen/RadarScreen.cpp.s
 
-Radar/RadarDisplay/RadarDisplay.o: Radar/RadarDisplay/RadarDisplay.cpp.o
-.PHONY : Radar/RadarDisplay/RadarDisplay.o
+Radar/radarDisplay.o: Radar/radarDisplay.cpp.o
+.PHONY : Radar/radarDisplay.o
 
 # target to build an object file
-Radar/RadarDisplay/RadarDisplay.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.o
-.PHONY : Radar/RadarDisplay/RadarDisplay.cpp.o
+Radar/radarDisplay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.o
+.PHONY : Radar/radarDisplay.cpp.o
 
-Radar/RadarDisplay/RadarDisplay.i: Radar/RadarDisplay/RadarDisplay.cpp.i
-.PHONY : Radar/RadarDisplay/RadarDisplay.i
+Radar/radarDisplay.i: Radar/radarDisplay.cpp.i
+.PHONY : Radar/radarDisplay.i
 
 # target to preprocess a source file
-Radar/RadarDisplay/RadarDisplay.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.i
-.PHONY : Radar/RadarDisplay/RadarDisplay.cpp.i
+Radar/radarDisplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.i
+.PHONY : Radar/radarDisplay.cpp.i
 
-Radar/RadarDisplay/RadarDisplay.s: Radar/RadarDisplay/RadarDisplay.cpp.s
-.PHONY : Radar/RadarDisplay/RadarDisplay.s
+Radar/radarDisplay.s: Radar/radarDisplay.cpp.s
+.PHONY : Radar/radarDisplay.s
 
 # target to generate assembly for a file
-Radar/RadarDisplay/RadarDisplay.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/RadarDisplay/RadarDisplay.cpp.s
-.PHONY : Radar/RadarDisplay/RadarDisplay.cpp.s
+Radar/radarDisplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Radar.dir/build.make CMakeFiles/Radar.dir/Radar/radarDisplay.cpp.s
+.PHONY : Radar/radarDisplay.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -318,12 +318,12 @@ help:
 	@echo "... Radar/Pixel/Pixel.o"
 	@echo "... Radar/Pixel/Pixel.i"
 	@echo "... Radar/Pixel/Pixel.s"
-	@echo "... Radar/Radar.o"
-	@echo "... Radar/Radar.i"
-	@echo "... Radar/Radar.s"
-	@echo "... Radar/RadarDisplay/RadarDisplay.o"
-	@echo "... Radar/RadarDisplay/RadarDisplay.i"
-	@echo "... Radar/RadarDisplay/RadarDisplay.s"
+	@echo "... Radar/RadarScreen/RadarScreen.o"
+	@echo "... Radar/RadarScreen/RadarScreen.i"
+	@echo "... Radar/RadarScreen/RadarScreen.s"
+	@echo "... Radar/radarDisplay.o"
+	@echo "... Radar/radarDisplay.i"
+	@echo "... Radar/radarDisplay.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

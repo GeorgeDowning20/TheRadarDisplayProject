@@ -1,20 +1,20 @@
 <map id="Radar/Pixel/Pixel.h" name="Radar/Pixel/Pixel.h">
 <area shape="rect" id="node1" title="This file contains the class declaration for the pixel class." alt="" coords="317,5,451,32"/>
 <area shape="rect" id="node2" href="$Icon_8h.html" title="This file contains the class definition for the icon class." alt="" coords="321,80,447,107"/>
-<area shape="rect" id="node9" href="$main_8cpp.html" title="This file contains the main function." alt="" coords="7,408,105,435"/>
-<area shape="rect" id="node15" href="$Pixel_8cpp.html" title="This file contains the function for the class Pixel." alt="" coords="910,155,1058,181"/>
+<area shape="rect" id="node9" href="$main_8cpp.html" title="This file contains the main function." alt="" coords="7,379,105,405"/>
+<area shape="rect" id="node15" href="$Pixel_8cpp.html" title="This file contains the function for the class Pixel." alt="" coords="998,155,1146,181"/>
 <area shape="rect" id="node3" href="$Aircraft_8h.html" title=" " alt="" coords="304,155,464,181"/>
-<area shape="rect" id="node12" href="$Icon_8cpp.html" title="This file contains the definitions for the icon class." alt="" coords="662,155,802,181"/>
-<area shape="rect" id="node4" href="$Aircraft_8cpp.html" title=" " alt="" coords="297,237,471,263"/>
-<area shape="rect" id="node5" href="$Airspace_8h.html" title=" " alt="" coords="93,237,272,263"/>
-<area shape="rect" id="node10" href="$RadarDisplay_8h.html" title=" " alt="" coords="495,229,635,271"/>
-<area shape="rect" id="node6" href="$Airspace_8cpp.html" title=" " alt="" coords="93,326,285,353"/>
-<area shape="rect" id="node7" href="$Radar_8h.html" title=" " alt="" coords="309,326,416,353"/>
-<area shape="rect" id="node8" href="$Radar_8cpp.html" title=" " alt="" coords="303,408,423,435"/>
-<area shape="rect" id="node11" href="$RadarDisplay_8cpp.html" title=" " alt="" coords="495,319,635,360"/>
-<area shape="rect" id="node13" href="$main4_8cpp.html" title=" " alt="" coords="660,237,804,263"/>
-<area shape="rect" id="node14" href="$main5_8cpp.html" title=" " alt="" coords="828,237,972,263"/>
-<area shape="rect" id="node16" href="$main1_8cpp.html" title="This file contains a main function to test the first subsection of the project." alt="" coords="1332,237,1476,263"/>
-<area shape="rect" id="node17" href="$main2_8cpp.html" title=" " alt="" coords="996,237,1140,263"/>
-<area shape="rect" id="node18" href="$main3_8cpp.html" title=" " alt="" coords="1164,237,1308,263"/>
+<area shape="rect" id="node12" href="$Icon_8cpp.html" title="This file contains the declarations for the icon class." alt="" coords="750,155,890,181"/>
+<area shape="rect" id="node4" href="$Aircraft_8cpp.html" title=" " alt="" coords="297,229,471,256"/>
+<area shape="rect" id="node5" href="$Airspace_8h.html" title=" " alt="" coords="93,229,272,256"/>
+<area shape="rect" id="node10" href="$RadarScreen_8h.html" title=" " alt="" coords="495,229,723,256"/>
+<area shape="rect" id="node6" href="$Airspace_8cpp.html" title=" " alt="" coords="93,304,285,331"/>
+<area shape="rect" id="node7" href="$radarDisplay_8h.html" title=" " alt="" coords="310,304,453,331"/>
+<area shape="rect" id="node8" href="$radarDisplay_8cpp.html" title=" " alt="" coords="303,379,460,405"/>
+<area shape="rect" id="node11" href="$RadarScreen_8cpp.html" title=" " alt="" coords="488,304,731,331"/>
+<area shape="rect" id="node13" href="$main4_8cpp.html" title="This file contains a main function to test the fourth and fifth subtasks of the project." alt="" coords="748,229,892,256"/>
+<area shape="rect" id="node14" href="$main5_8cpp.html" title=" " alt="" coords="916,229,1060,256"/>
+<area shape="rect" id="node16" href="$main1_8cpp.html" title="This file contains a main function to test the first subsection of the project." alt="" coords="1420,229,1564,256"/>
+<area shape="rect" id="node17" href="$main2_8cpp.html" title="This file contains a main function to test the second subtask of the project." alt="" coords="1084,229,1228,256"/>
+<area shape="rect" id="node18" href="$main3_8cpp.html" title="This file contains a main function to test the third subtask of the project." alt="" coords="1252,229,1396,256"/>
 </map>

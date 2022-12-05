@@ -2,13 +2,13 @@
 #include <iostream>
 
 #include "../Aircraft/Aircraft.h"
-class RadarDisplay
+class RadarScreen
 {
 public:
     const int DEFAULT_WIDTH = 800;
     const int DEFAULT_HEIGHT = 600;
-    RadarDisplay();
-    ~RadarDisplay();
+    RadarScreen();
+    ~RadarScreen();
     void DrawAircraft(const Aircraft &obj);
 
     Display *getDisplay() const;

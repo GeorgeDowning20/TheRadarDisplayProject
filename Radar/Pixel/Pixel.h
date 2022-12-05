@@ -38,6 +38,9 @@ public:
     /// @brief Default constructor for pixel
     pixel();
 
+    /// @brief Default deconstructor for pixel
+    ~pixel();
+
     /// @brief Default constructor for pixel with x, y and Brightness
     /// @param[in,out] x The x coordinate of the pixel
     /// @param[in,out] y The y coordinate of the pixel
