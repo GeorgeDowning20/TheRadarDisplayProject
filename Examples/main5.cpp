@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------//
-/// @file main4.cpp
+/// @file main5.cpp
 /// @brief This file contains a main function to test the sixth and seventh subtasks of the project
 /// @author G.Downing
 /// @date 2020-11-24
@@ -21,7 +21,7 @@
 
 /// @brief main program
 /// @return 0
-/// @details This is the main function for the program. an icon is created named myIcon. the icon is then initialised as a diagonal line using the #initialiseAsDefaultDiagonalLine(uint8_t Brightness) function from the Icon class. the icon is then printed to the console using the #showIconDetail function from the Icon class.
+/// @details This is the main function for the program. an icon is created named myIcon. the icon is then initialised as a diagonal line using the #icon::initialiseAsDefaultDiagonalLine(uint8_t Brightness) function from the Icon class. the icon is then printed to the console using the #icon::showIconDetail function from the Icon class.
 /**  @test
 Output: \n
 Icon 0 has the following pixels: \n
