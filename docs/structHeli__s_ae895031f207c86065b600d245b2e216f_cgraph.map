@@ -1,4 +1,4 @@
 <map id="Heli_s::move" name="Heli_s::move">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,104,32"/>
-<area shape="rect" id="node2" href="$class__Time.html#a548186dd4f99f8ba4cbd08407e12096f" title=" " alt="" coords="152,5,243,32"/>
+<area shape="rect" id="node2" href="$class__Time.html#a548186dd4f99f8ba4cbd08407e12096f" title="interface with the time library to get the current time" alt="" coords="152,5,243,32"/>
 </map>

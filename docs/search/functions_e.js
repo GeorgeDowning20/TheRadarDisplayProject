@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['update_5faircraft_266',['update_Aircraft',['../classAir__Space.html#a6ee6bc3a22b2c03a63056739bc9a0015',1,'Air_Space']]],
-  ['update_5ficon_267',['update_Icon',['../classicon.html#aa45d2f89f0aef3a79c08789c471df495',1,'icon']]]
+  ['_7eair_5fspace_264',['~Air_Space',['../classAir__Space.html#aa4662c918279ae723128b5dfe4e026df',1,'Air_Space']]],
+  ['_7eicon_265',['~icon',['../classicon.html#a8affd4e1b30354b7a489da3551a440d9',1,'icon']]],
+  ['_7epixel_266',['~pixel',['../classpixel.html#ac2896f61987431e12ae5bba1cd092e98',1,'pixel']]],
+  ['_7eradar_5fscreen_267',['~Radar_Screen',['../classRadar__Screen.html#a3377e562ea119efa47c229118607ad26',1,'Radar_Screen']]]
 ];

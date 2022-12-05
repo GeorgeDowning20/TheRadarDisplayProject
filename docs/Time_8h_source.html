@@ -69,29 +69,41 @@ $(function() {
 <div class="title">Time.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="Time_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;chrono&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="class__Time.html">    3</a></span>&#160;<span class="keyword">class </span><a class="code" href="class__Time.html">_Time</a></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class__Time.html#adb356e63624cdaecdc13b930d80636fc">    6</a></span>&#160;    <a class="code" href="class__Time.html#adb356e63624cdaecdc13b930d80636fc">_Time</a>()</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">start_</a> = std::chrono::high_resolution_clock::now();</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    }</div>
+<a href="Time_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"></span><span class="comment">//---------------------------------------------------------------------------//</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class__Time.html#a548186dd4f99f8ba4cbd08407e12096f">   11</a></span>&#160;    <span class="keywordtype">long</span> <a class="code" href="class__Time.html#a548186dd4f99f8ba4cbd08407e12096f">time</a>()</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        std::chrono::duration&lt;long, std::nano&gt; elap = std::chrono::high_resolution_clock::now() - <a class="code" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">start_</a>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">return</span> elap.count();</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">   18</a></span>&#160;    std::chrono::high_resolution_clock::time_point <a class="code" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">start_</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
-<div class="ttc" id="aclass__Time_html"><div class="ttname"><a href="class__Time.html">_Time</a></div><div class="ttdef"><b>Definition:</b> Time.h:4</div></div>
-<div class="ttc" id="aclass__Time_html_a548186dd4f99f8ba4cbd08407e12096f"><div class="ttname"><a href="class__Time.html#a548186dd4f99f8ba4cbd08407e12096f">_Time::time</a></div><div class="ttdeci">long time()</div><div class="ttdef"><b>Definition:</b> Time.h:11</div></div>
-<div class="ttc" id="aclass__Time_html_ac348b007a9373368c9e5d3f5333a6c44"><div class="ttname"><a href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">_Time::start_</a></div><div class="ttdeci">std::chrono::high_resolution_clock::time_point start_</div><div class="ttdef"><b>Definition:</b> Time.h:18</div></div>
-<div class="ttc" id="aclass__Time_html_adb356e63624cdaecdc13b930d80636fc"><div class="ttname"><a href="class__Time.html#adb356e63624cdaecdc13b930d80636fc">_Time::_Time</a></div><div class="ttdeci">_Time()</div><div class="ttdef"><b>Definition:</b> Time.h:6</div></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//                        preprocessor directives</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#pragma once </span><span class="comment">// Include guard</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;chrono&gt;</span> <span class="comment">// std::chrono</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//                    Class Deceleration and definitions</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class__Time.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="class__Time.html">_Time</a></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class__Time.html#adb356e63624cdaecdc13b930d80636fc">   30</a></span>&#160;    <a class="code" href="class__Time.html#adb356e63624cdaecdc13b930d80636fc">_Time</a>()</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">start_</a> = std::chrono::high_resolution_clock::now(); <span class="comment">// Set the start time to the current time</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class__Time.html#a548186dd4f99f8ba4cbd08407e12096f">   37</a></span>&#160;    <span class="keywordtype">long</span> <a class="code" href="class__Time.html#a548186dd4f99f8ba4cbd08407e12096f">time</a>()</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        std::chrono::duration&lt;long, std::nano&gt; elap = std::chrono::high_resolution_clock::now() - <a class="code" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">start_</a>; <span class="comment">// Calculate the elapsed time</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> elap.count();                                                                              <span class="comment">// Return the elapsed time</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">   44</a></span>&#160;    std::chrono::high_resolution_clock::time_point <a class="code" href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">start_</a>; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="ttc" id="aclass__Time_html"><div class="ttname"><a href="class__Time.html">_Time</a></div><div class="ttdoc">Time class.</div><div class="ttdef"><b>Definition:</b> Time.h:27</div></div>
+<div class="ttc" id="aclass__Time_html_a548186dd4f99f8ba4cbd08407e12096f"><div class="ttname"><a href="class__Time.html#a548186dd4f99f8ba4cbd08407e12096f">_Time::time</a></div><div class="ttdeci">long time()</div><div class="ttdoc">interface with the time library to get the current time</div><div class="ttdef"><b>Definition:</b> Time.h:37</div></div>
+<div class="ttc" id="aclass__Time_html_ac348b007a9373368c9e5d3f5333a6c44"><div class="ttname"><a href="class__Time.html#ac348b007a9373368c9e5d3f5333a6c44">_Time::start_</a></div><div class="ttdeci">std::chrono::high_resolution_clock::time_point start_</div><div class="ttdoc">The std::chrono::high_resolution_clock::time_point instance used to store the start time.</div><div class="ttdef"><b>Definition:</b> Time.h:44</div></div>
+<div class="ttc" id="aclass__Time_html_adb356e63624cdaecdc13b930d80636fc"><div class="ttname"><a href="class__Time.html#adb356e63624cdaecdc13b930d80636fc">_Time::_Time</a></div><div class="ttdeci">_Time()</div><div class="ttdoc">constructor the time class</div><div class="ttdef"><b>Definition:</b> Time.h:30</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

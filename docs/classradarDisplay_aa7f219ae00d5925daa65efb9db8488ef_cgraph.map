@@ -1,8 +1,8 @@
 <map id="radarDisplay::_handle_Event" name="radarDisplay::_handle_Event">
 <area shape="rect" id="node1" title="handle the starting conditions" alt="" coords="5,49,153,90"/>
 <area shape="rect" id="node2" href="$classradarDisplay.html#ae71a9025e7f4eb96ee78af037ca7f4e6" title="Display all aircraft in the airspace on the radar display window." alt="" coords="201,49,343,90"/>
-<area shape="rect" id="node3" href="$classRadar__Screen.html#a91ac2dacbb350e48d8ed6b77e4656304" title=" " alt="" coords="391,49,535,90"/>
-<area shape="rect" id="node4" href="$classicon.html#aa38bb16c35b3eeb529fd25c867a33df7" title="Show the id of the icon." alt="" coords="583,5,691,32"/>
-<area shape="rect" id="node5" href="$classpixel.html#af66db649310d392c01f251430aaa1017" title="Show the x coordinate of the pixel." alt="" coords="591,56,682,83"/>
-<area shape="rect" id="node6" href="$classpixel.html#aced225f6094bb04db0f6bafcf3385d3d" title="Show the y coordinate of the pixel." alt="" coords="591,107,682,133"/>
+<area shape="rect" id="node3" href="$classRadar__Screen.html#aea088f9e54a19a7ae81e8657340b911c" title="Draw the icon of the aircraft in the designated place." alt="" coords="391,49,541,90"/>
+<area shape="rect" id="node4" href="$classicon.html#aa38bb16c35b3eeb529fd25c867a33df7" title="Show the id of the icon." alt="" coords="589,5,697,32"/>
+<area shape="rect" id="node5" href="$classpixel.html#af66db649310d392c01f251430aaa1017" title="Show the x coordinate of the pixel." alt="" coords="598,56,689,83"/>
+<area shape="rect" id="node6" href="$classpixel.html#aced225f6094bb04db0f6bafcf3385d3d" title="Show the y coordinate of the pixel." alt="" coords="598,107,689,133"/>
 </map>

@@ -29,11 +29,6 @@
 /// @date 2020-11-24
 class pixel
 {
-private:
-    float x;            ///< The x coordinate of the pixel
-    float y;            ///< The y coordinate of the pixel
-    uint8_t Brightness; ///< The brightness of the pixel
-
 public:
     /// @brief Default constructor for pixel
     pixel();
@@ -93,4 +88,9 @@ public:
     /// @param[in] pixel The pixel to show the details of
     /// @return STATUS_OK
     static enum status_e show_Detail(pixel const &pixel);
+
+private:
+    float x;            ///< The x coordinate of the pixel
+    float y;            ///< The y coordinate of the pixel
+    uint8_t Brightness; ///< The brightness of the pixel
 };

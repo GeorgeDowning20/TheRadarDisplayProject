@@ -1,4 +1,4 @@
 <map id="radarDisplay::_get_Event" name="radarDisplay::_get_Event">
 <area shape="rect" id="node1" title="handle the events" alt="" coords="5,5,133,47"/>
-<area shape="rect" id="node2" href="$classRadar__Screen.html#abedfdbf512c8f9aadc53b3adbcf859d6" title=" " alt="" coords="181,13,364,39"/>
+<area shape="rect" id="node2" href="$classRadar__Screen.html#a9705918b81e5dc5f9de0d88ddc9708cb" title="return display instance" alt="" coords="181,5,320,47"/>
 </map>

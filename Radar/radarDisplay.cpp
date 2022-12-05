@@ -27,10 +27,10 @@ radarDisplay::radarDisplay(Air_Space &air_space)
 /// @details This is the run function for the radarDisplay class. The run function is used to run the radar display. The run function is used to handle the events and display the aircraft in the airspace on the radar display.
 void radarDisplay::run()
 {
-    airspace_->update_Aircraft(); // Update the aircraft in the airspace
+    airspace_->_update_Aircraft(); // Update the aircraft in the airspace
 
-    if (airspace_->update_flag_) // If the airspace has been updated
-        RadarDisplay_.re_draw(); // Redraw the radar display
+    if (airspace_->update_flag_)  // If the airspace has been updated
+        RadarDisplay_._re_draw(); // Redraw the radar display
 
     if (is_running_) // if the radar display is running
     {
@@ -46,10 +46,10 @@ void radarDisplay::run()
 /// @details This is the _get_Event function for the radarDisplay class. The _get_Event function is used to get the events from the radar display. The _get_Event function is used to get the events from the radar display and return a bool to determine if the radar display should continue running.
 bool radarDisplay::_get_Event()
 {
-    if (XPending(RadarDisplay_.get_Display())) // If there is an event
+    if (XPending(RadarDisplay_._get_Display())) // If there is an event
     {
-        XNextEvent(RadarDisplay_.get_Display(), &event_); // Get the event
-        return true;                                      // Return true
+        XNextEvent(RadarDisplay_._get_Display(), &event_); // Get the event
+        return true;                                       // Return true
     }
 
     return false; // Return false
@@ -60,17 +60,17 @@ void radarDisplay::_Draw_All_Aircraft()
 {
     for (auto &g : airspace_->Jet) // For each jet in the airspace
     {
-        RadarDisplay_.Draw_Aircraft(g); // Draw the aircraft
+        RadarDisplay_._Draw_Aircraft(g); // Draw the aircraft
     }
 
     for (auto &g : airspace_->Heli) // For each Heli in the airspace
     {
-        RadarDisplay_.Draw_Aircraft(g); // Draw the aircraft
+        RadarDisplay_._Draw_Aircraft(g); // Draw the aircraft
     }
 
     for (auto &g : airspace_->Plane) // For each Plane in the airspace
     {
-        RadarDisplay_.Draw_Aircraft(g); // Draw the aircraft
+        RadarDisplay_._Draw_Aircraft(g); // Draw the aircraft
     }
 }
 

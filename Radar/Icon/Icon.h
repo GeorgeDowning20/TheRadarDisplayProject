@@ -29,10 +29,6 @@
 
 class icon
 {
-private:
-    pixel The_Pixels[16]; ///< The pixels that make up the icon
-    uint8_t Id;           ///< The id of the icon
-
 public:
     /// @brief Default constructor for icon
     icon();
@@ -111,4 +107,8 @@ public:
     /// @param icon The icon to be displayed
     /// @return Status of the operation #status_e
     enum status_e showIconDetail();
+
+private:
+    pixel The_Pixels[16]; ///< The pixels that make up the icon
+    uint8_t Id;           ///< The id of the icon
 };
