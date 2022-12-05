@@ -47,6 +47,7 @@ private:
     void _Draw_Aircraft(const Aircraft &obj);
 
     /// @brief return display instance
+    /// @return the display instance
     Display *_get_Display() const;
 
     Display *display_; ///< The Display instance used to store the display
