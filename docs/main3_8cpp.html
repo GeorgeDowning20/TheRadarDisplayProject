@@ -102,7 +102,34 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2020-11-24 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) 2022 G. Downing</dd></dl>
 <p>This file contains a main function to test the third subtask of the project. the main functions creates an instance of a pixel with the specified input data. the characteristics of the pixel are then printed to the console using the #showPixelDetail(aPixel) function.</p>
-<p>Doxygen Documentation for project: <a href="https://georgedowning20.github.io/TheRadarDisplayProject/index.html">https://georgedowning20.github.io/TheRadarDisplayProject/index.html</a> </p>
+<p>Doxygen Documentation for project: <a href="https://georgedowning20.github.io/TheRadarDisplayProject/index.html">https://georgedowning20.github.io/TheRadarDisplayProject/index.html</a> </p><dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment"></span><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                        preprocessor directives</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &quot;../Radar/Pixel/Pixel.cpp&quot;</span> <span class="comment">// Pixel.cpp</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                           Main Program</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="3_816_83_2CompilerIdC_2CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>()</div>
+<div class="line">{</div>
+<div class="line">    <a class="code" href="classpixel.html">pixel</a> aPixel(3.7, 4.1, 7); <span class="comment">// Create a pixel object with the specified input data: x and y coordinates to 3.9 and 4.1 and its brightness to 7.</span></div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code" href="classpixel.html#a8d7cb9e2961eba68009f864ecebe61a2">pixel::showPixelDetail</a>(aPixel) != <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a>) <span class="comment">// If the pixel detail is not shown successfully</span></div>
+<div class="line">    {</div>
+<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;Error: Pixel detail not shown successfully&quot;</span> &lt;&lt; std::endl; <span class="comment">// Print an error message</span></div>
+<div class="line">    }</div>
+<div class="line">    <span class="keywordflow">return</span> 0; <span class="comment">// Return 0</span></div>
+<div class="line">}</div>
+<div class="ttc" id="a3_816_83_2CompilerIdC_2CMakeCCompilerId_8c_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="3_816_83_2CompilerIdC_2CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> CMakeCCompilerId.c:645</div></div>
+<div class="ttc" id="aclasspixel_html"><div class="ttname"><a href="classpixel.html">pixel</a></div><div class="ttdoc">This class represents a single pixel.</div><div class="ttdef"><b>Definition:</b> Pixel.h:31</div></div>
+<div class="ttc" id="aclasspixel_html_a8d7cb9e2961eba68009f864ecebe61a2"><div class="ttname"><a href="classpixel.html#a8d7cb9e2961eba68009f864ecebe61a2">pixel::showPixelDetail</a></div><div class="ttdeci">enum status_e showPixelDetail()</div><div class="ttdoc">Show the details of the pixel.</div><div class="ttdef"><b>Definition:</b> Pixel.cpp:57</div></div>
+<div class="ttc" id="amain_8h_html_a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566"><div class="ttname"><a href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a></div><div class="ttdeci">@ STATUS_OK</div><div class="ttdoc">The function completed successfully.</div><div class="ttdef"><b>Definition:</b> main.h:17</div></div>
+</div><!-- fragment --> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>

@@ -6,6 +6,8 @@
 /// @copyright (c) 2022 G. Downing
 /// @details This files contains the main function to test the sixth and seventh subtasks of the project. the main function creates and instance of an empty icon and then it is initialised as a diagonal line using the #initialiseAsDefaultDiagonalLine(uint8_t Brightness) function from the Icon class. the icon is then printed to the console using the #showIconDetail function from the Icon class.
 /// @details Doxygen Documentation for project: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
+/// @par Code:
+/// @include main5.cpp
 //---------------------------------------------------------------------------//
 
 //---------------------------------------------------------------------------//

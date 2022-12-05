@@ -6,6 +6,8 @@
 /// @copyright (c) 2022 G. Downing
 /// @details This file contains a main function to test the first subsection of the project. the main function creates a instance of a pixel which proves it compiles.
 /// @details Doxygen Documentation for project: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
+/// @par Code:
+/// @include main1.cpp
 //---------------------------------------------------------------------------//
 
 //---------------------------------------------------------------------------//

@@ -6,6 +6,8 @@
 /// @copyright (c) 2022 G. Downing
 /// @details This files contains the main function to test the fourth and fifth subtasks of the project. the main function creates and instance of an icon and pixel. the pixel is initiated with some test data and then added to the icon. the icon is then printed to the console.
 /// @details Doxygen Documentation for project: https://georgedowning20.github.io/TheRadarDisplayProject/index.html
+/// @par Code:
+/// @include main4.cpp
 //---------------------------------------------------------------------------//
 
 //---------------------------------------------------------------------------//

@@ -105,7 +105,44 @@ Functions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>2020-11-24 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) 2022 G. Downing</dd></dl>
 <p>This files contains the main function to test the sixth and seventh subtasks of the project. the main function creates and instance of an empty icon and then it is initialised as a diagonal line using the #initialiseAsDefaultDiagonalLine(uint8_t Brightness) function from the Icon class. the icon is then printed to the console using the #showIconDetail function from the Icon class.</p>
-<p>Doxygen Documentation for project: <a href="https://georgedowning20.github.io/TheRadarDisplayProject/index.html">https://georgedowning20.github.io/TheRadarDisplayProject/index.html</a> </p>
+<p>Doxygen Documentation for project: <a href="https://georgedowning20.github.io/TheRadarDisplayProject/index.html">https://georgedowning20.github.io/TheRadarDisplayProject/index.html</a> </p><dl class="section user"><dt>Code:</dt><dd><div class="fragment"><div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment"></span><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                        preprocessor directives</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &quot;../Radar/Pixel/Pixel.cpp&quot;</span> <span class="comment">// Pixel.cpp</span></div>
+<div class="line"><span class="preprocessor">#include &quot;../Radar/Icon/Icon.cpp&quot;</span>   <span class="comment">// Icon.cpp</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"><span class="comment">//                           Main Program</span></div>
+<div class="line"><span class="comment">//---------------------------------------------------------------------------//</span></div>
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="3_816_83_2CompilerIdC_2CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>()</div>
+<div class="line">{</div>
+<div class="line">    <a class="code" href="classicon.html">icon</a> myIcon; <span class="comment">// Create an icon object</span></div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">if</span> (myIcon.<a class="code" href="classicon.html#a221927b72787ba82f7cd414d8a9effc5">initialiseAsDefaultDiagonalLine</a>(15) != <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a>) <span class="comment">// If the icon is not initialised successfully</span></div>
+<div class="line">    {</div>
+<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;Error: Icon not initialised successfully&quot;</span> &lt;&lt; std::endl; <span class="comment">// Print an error message</span></div>
+<div class="line">        <span class="keywordflow">return</span> <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a5bde228d9506a863d51ffbc868ff67f7">STATUS_ERROR</a>;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">if</span> (myIcon.<a class="code" href="classicon.html#af20d06f0050825e79ec3555ff22f7166">showIconDetail</a>() != <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a>) <span class="comment">// If the icon detail is not shown successfully</span></div>
+<div class="line">    {</div>
+<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;Error: Icon detail not shown successfully&quot;</span> &lt;&lt; std::endl; <span class="comment">// Print an error message</span></div>
+<div class="line">        <span class="keywordflow">return</span> <a class="code" href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a5bde228d9506a863d51ffbc868ff67f7">STATUS_ERROR</a>;</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="a3_816_83_2CompilerIdC_2CMakeCCompilerId_8c_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="3_816_83_2CompilerIdC_2CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> CMakeCCompilerId.c:645</div></div>
+<div class="ttc" id="aclassicon_html"><div class="ttname"><a href="classicon.html">icon</a></div><div class="ttdoc">This class represents an icon.</div><div class="ttdef"><b>Definition:</b> Icon.h:31</div></div>
+<div class="ttc" id="aclassicon_html_a221927b72787ba82f7cd414d8a9effc5"><div class="ttname"><a href="classicon.html#a221927b72787ba82f7cd414d8a9effc5">icon::initialiseAsDefaultDiagonalLine</a></div><div class="ttdeci">enum status_e initialiseAsDefaultDiagonalLine(uint8_t Brightness)</div><div class="ttdoc">function to initialise an icon as a diagonal line with a specified brightness</div><div class="ttdef"><b>Definition:</b> Icon.cpp:153</div></div>
+<div class="ttc" id="aclassicon_html_af20d06f0050825e79ec3555ff22f7166"><div class="ttname"><a href="classicon.html#af20d06f0050825e79ec3555ff22f7166">icon::showIconDetail</a></div><div class="ttdeci">static enum status_e showIconDetail(icon const &amp;icon)</div><div class="ttdoc">function to display the details of the icon in the console</div><div class="ttdef"><b>Definition:</b> Icon.cpp:87</div></div>
+<div class="ttc" id="amain_8h_html_a6408ff47e3b54ebf0bf1e4c7640ff708a5bde228d9506a863d51ffbc868ff67f7"><div class="ttname"><a href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a5bde228d9506a863d51ffbc868ff67f7">STATUS_ERROR</a></div><div class="ttdeci">@ STATUS_ERROR</div><div class="ttdoc">The function did not complete successfully.</div><div class="ttdef"><b>Definition:</b> main.h:18</div></div>
+<div class="ttc" id="amain_8h_html_a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566"><div class="ttname"><a href="main_8h.html#a6408ff47e3b54ebf0bf1e4c7640ff708a7e4a42e3b6dd63708c64cf3db6f69566">STATUS_OK</a></div><div class="ttdeci">@ STATUS_OK</div><div class="ttdoc">The function completed successfully.</div><div class="ttdef"><b>Definition:</b> main.h:17</div></div>
+</div><!-- fragment --> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
