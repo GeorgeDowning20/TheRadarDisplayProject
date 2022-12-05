@@ -22,13 +22,13 @@
 
 /// @brief main program
 /// @return 0
-/// @details This is the main function for the program. a pixel is created named myFirstPixel.
+/// @details This is the main function for the program. a pixel is created named myFirstEverPixel.
 /// @note no output is expected from this program.
 /// @test This program compiles successfully.
 /// @date 2020-11-24
 /// @author G.Downing
 int main()
 {
-    pixel myFirstPixel; // Create a pixel object
+    pixel myFirstEverPixel; // Create a pixel object
     return 0;
 }

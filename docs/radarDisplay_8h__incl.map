@@ -1,5 +1,5 @@
 <map id="Radar/radarDisplay.h" name="Radar/radarDisplay.h">
-<area shape="rect" id="node1" title="This file contains the radarDisplay class Definition." alt="" coords="225,5,367,32"/>
+<area shape="rect" id="node1" title="This file contains the radarDisplay class Declaration." alt="" coords="225,5,367,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,155,88,181"/>
 <area shape="rect" id="node3" title=" " alt="" coords="488,155,547,181"/>
 <area shape="rect" id="node4" href="$Airspace_8h.html" title="This file contains the Airspace class Deceleration." alt="" coords="325,80,464,107"/>

@@ -27,7 +27,6 @@
 /**  @test
 Output: \n
 Icon 0 has the following pixels: \n
-Pixel at (0, 0) has a brightness of 15 \n
 Pixel at (1, 1) has a brightness of 15 \n
 Pixel at (2, 2) has a brightness of 15 \n
 Pixel at (3, 3) has a brightness of 15 \n
@@ -42,7 +41,8 @@ Pixel at (11, 11) has a brightness of 15 \n
 Pixel at (12, 12) has a brightness of 15 \n
 Pixel at (13, 13) has a brightness of 15 \n
 Pixel at (14, 14) has a brightness of 15 \n
-Pixel at (15, 15) has a brightness of 15
+Pixel at (15, 15) has a brightness of 15 \n
+Pixel at (16, 16) has a brightness of 15
 **/
 /// @date 2020-11-24
 /// @author G.Downing

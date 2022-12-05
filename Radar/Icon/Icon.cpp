@@ -154,8 +154,8 @@ enum status_e icon::initialiseAsDefaultDiagonalLine(uint8_t Brightness)
 {
     for (int pixelId = 0; pixelId < 16; pixelId++) // iterate through the pixels
     {
-        The_Pixels[pixelId].set_X(pixelId);             // Set the x coordinate of the pixel
-        The_Pixels[pixelId].set_Y(pixelId);             // Set the y coordinate of the pixel
+        The_Pixels[pixelId].set_X(pixelId + 1);         // Set the x coordinate of the pixel
+        The_Pixels[pixelId].set_Y(pixelId + 1);         // Set the y coordinate of the pixel
         The_Pixels[pixelId].set_Brightness(Brightness); // Set the brightness of the pixel
     }
     return STATUS_OK; // Return status ok
