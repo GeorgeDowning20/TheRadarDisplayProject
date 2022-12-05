@@ -22,7 +22,7 @@
 /// @brief main program
 /// @return 0
 /// @details This is the main function for the program. an icon is created named myIcon. the icon is then initialised as a diagonal line using the #initialiseAsDefaultDiagonalLine(uint8_t Brightness) function from the Icon class. the icon is then printed to the console using the #showIconDetail function from the Icon class.
-/**  @test Output:\n
+/**  @test $Output:\n
 Icon 0 has the following pixels:\n
 Pixel at (0, 0) has a brightness of 15\n
 Pixel at (1, 1) has a brightness of 15\n
@@ -39,7 +39,7 @@ Pixel at (11, 11) has a brightness of 15\n
 Pixel at (12, 12) has a brightness of 15\n
 Pixel at (13, 13) has a brightness of 15\n
 Pixel at (14, 14) has a brightness of 15\n
-Pixel at (15, 15) has a brightness of 15
+Pixel at (15, 15) has a brightness of 15$
 **/
 /// @date 2020-11-24
 /// @author G.Downing
